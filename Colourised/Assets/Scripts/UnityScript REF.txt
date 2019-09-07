@@ -1,0 +1,7 @@
+	Parallax Camera Effect: 
+https://answers.unity.com/questions/551808/parallax-scrolling-using-orthographic-camera.html
+Used in this video : https://www.youtube.com/watch?v=2MImqNvgrNg   Cinema Camera also used here. 
+
+
+
+ 

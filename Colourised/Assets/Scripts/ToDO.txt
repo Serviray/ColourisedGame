@@ -1,0 +1,23 @@
+Flit needs to have his final appearance (if this is changing) changed ASAP so he can then be animated ASAP and integrated ASAP.
+Generic Wolpertings need a working script for a passive dialogue event - you walk past a Generic Wolperting and entering its hitbox triggers a short onscreen text message.
+The health bar needs to be scripted.
+
+A script needs to be created which can be attached to dangerous objects like spikes, bees, etc so that after a collision is registered health is removed from the health bar.
+A script needs to be created to allow spawn points to respawn Flit.
+
+A 'quest giver' Wolperting needs to be designated, and animated to move towards Flit, scripted to start a conversation, and to give Flit his first quest. The Quest is to find
+a fixed number of missing Wolpertings. To progress to the next level Flit must find them, return to the quest giver, and move to the exit. 
+Scripts for this quest must be created.
+
+A small power crystal counter (not a small counter, a counter for small power crystals) needs to be created/scripted. 
+Small, respawning power crystals need to be added to the world - these fill the power crystal counter - once full Flit has unlocked his first ability - the Shield Power, and can use it henceforth, 
+provided it is charged up by collecting those small crystals.
+Shield Power needs to be animated/scripted/integrated. Shield power negates the harmful qualities of certain hazards. With the Shield up Flit can move through/over/past certain Hazards.
+
+continued:
+Large non-respawning power crystal chunks need to be added to the world. Flit needs to find these to be able to open up more areas of the level. Locked areas of the level may 
+feature Colourless platforms, etc, these will have their colour restored when Flit finds the large Colour crystal chunks.
+Once the large colour crystal chunk is found, the colour returns to the disabled platform, etc, and Flit can now explore beyond that point.
+Generic Wolpertings need simple idle/patrol animations.
+Teleporters need a working script.
+Bees need to be animated. 
