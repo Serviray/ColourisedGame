@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour {
 
-    
+        private GameMaster gm;
         public int health;
         public int numHearts;
-
+        public int damage = 1;
         public Image[] hearts;
         public Sprite fullHearts;
         public Sprite emptyHearts;
@@ -19,10 +19,19 @@ public class PlayerHealth : MonoBehaviour {
             health = numHearts;
         }
 
+        if(Input.GetKeyDown(KeyCode.C)){
+            takeDamage();
+            Debug.Log("Coded -1 Dmg");
+        }
+
+        if(Input.GetKeyDown(KeyCode.V)){
+            playerHeal();
+            Debug.Log("Coded +1 Heal");
+        }
 
         for (int i = 0; i < hearts.Length; i++) {
 
-            if(i< health){
+            if(i < health){
                 hearts[i].sprite = fullHearts;
             } 
             else {
@@ -38,13 +47,19 @@ public class PlayerHealth : MonoBehaviour {
         }
     }
 
+    public void Reset()
+    {
+        health = numHearts;
+    }
+
     public void takeDamage(){
-        Debug.Log("Take One heart");
-        health = health-1;
-   /*      if (numHearts <= 0){
+        Debug.Log("Ai 1 Dmg");
+        health -= damage;
+        if (health <= 0)
+        {
             Debug.Log ("PLayer Killed");
-            GameMaster.killPlayer(this);
-      */  
+            GameMaster.Instance().killPlayer(gameObject);
+        }
     }
 
     public void playerHeal(){
@@ -53,7 +68,5 @@ public class PlayerHealth : MonoBehaviour {
         if (numHearts <= 0){
             numHearts = health;
         }
-
     }
-
 }

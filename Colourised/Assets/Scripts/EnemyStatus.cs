@@ -12,31 +12,57 @@ public enum EnemyState
     ATTACKING,
     STUNNED
 }
-public class EnemyStatus : MonoBehaviour
+public class EnemyStatus : MonoBehaviour 
 {
     private float stunTime;
     public float startStunTime;
     private AIPath pathing;
-    private PlayerHealth playerHp;
+    private AIDestinationSetter aiDestination;
     public Collider2D stopChasing;
     public EnemyState state;
     public float chargeTime;
     private float chargeTimer;
+    public float ActiveRnge = 13.0f;
+    public Transform startPosition;
+    //Try and change this to the start position of the prefab (when it was placed)
+    private PlayerHealth player;
 
             // Start is called before the first frame update
     void Start()
     {
         //Animation reference Here
         pathing = GetComponent<AIPath>();
-        playerHp = GetComponent<PlayerHealth>();
-        if (pathing)
-        {
-            Debug.Log("Enemy got pathing component");
-        }
+        aiDestination = GetComponent<AIDestinationSetter>();
+        GetPlayer();
+        
+    }
+
+    void GetPlayer()
+    {
+        player = GameMaster.Instance().GetPlayerHealth();
     }
 
     void Update()
     {
+        if (player == null)
+        {
+            GetPlayer();
+        }
+        else if (aiDestination != null)
+        {
+            if (Vector2.Distance(player.transform.position, transform.position) > ActiveRnge)
+            {
+                aiDestination.target = startPosition;
+                /*pathing.canMove = false;
+                return;*/
+            }
+            else
+            {
+                aiDestination.target = player.transform;
+                pathing.canMove = true;
+            }
+        }
+
         if (state == EnemyState.START_ATTACK)
         {
             pathing.canMove = false;
@@ -46,7 +72,7 @@ public class EnemyStatus : MonoBehaviour
                 Debug.Log("Attack NOW");
                 chargeTimer = 0.0f;
                 state = EnemyState.ATTACKING;
-                Invoke("FinishAttack", 2.0f);
+                Invoke("FinishAttack", 2);
             }
         }
 
@@ -101,15 +127,17 @@ public class EnemyStatus : MonoBehaviour
         }
     }
 
-    public void CollisionWithPlayer(GameObject Player)
+    public void CollisionWithPlayer(GameObject col)
     {
         if (state == EnemyState.ATTACKING)
         {
-            playerHp.takeDamage();
+            
         }
         else if (state != EnemyState.START_ATTACK && state != EnemyState.STUNNED)
         {
+            GameMaster.Instance().GetPlayerHealth().takeDamage();
             StartAttack();
+            Debug.Log("restarting attack");
         }
     }
 
@@ -122,5 +150,6 @@ public class EnemyStatus : MonoBehaviour
     private void FinishAttack()
     {
         state = EnemyState.MOVING;
+        
     }
 }
