@@ -1,115 +1,330 @@
 fileFormatVersion: 2
 guid: 96bc158e6e3eef340813107435fb576b
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: Flit2.0_GO/Flit2.0_GO
-    100002: Flit2.0_GO/Flit2.0_GO/BackFoot
-    100004: Flit2.0_GO/Flit2.0_GO/BackforearmIhope
-    100006: Flit2.0_GO/Flit2.0_GO/BACKHAND
-    100008: Flit2.0_GO/Flit2.0_GO/BackLegCalf
-    100010: Flit2.0_GO/Flit2.0_GO/BackLegThigh
-    100012: Flit2.0_GO/Flit2.0_GO/BackUpperArm
-    100014: Flit2.0_GO/Flit2.0_GO/Cloak
-    100016: Flit2.0_GO/Flit2.0_GO/FrontCalf
-    100018: Flit2.0_GO/Flit2.0_GO/FrontFoot
-    100020: Flit2.0_GO/Flit2.0_GO/FrontForearm
-    100022: Flit2.0_GO/Flit2.0_GO/Fronthand
-    100024: Flit2.0_GO/Flit2.0_GO/FrontThigh
-    100026: Flit2.0_GO/Flit2.0_GO/FrontUpperArm
-    100028: Flit2.0_GO/Flit2.0_GO/HeadMask
-    100030: Flit2.0_GO/Flit2.0_GO/Tail
-    100032: Flit2.0_GO/Flit2.0_GO/bone_1
-    100034: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2
-    100036: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/bone_13
-    100038: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/bone_13/bone_3
-    100040: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4
-    100042: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/bone_14
-    100044: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/bone_14/bone_5
-    100046: Flit2.0_GO/Flit2.0_GO/bone_1/bone_6
-    100048: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7
-    100050: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/bone_8
-    100052: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/bone_8/bone_9
-    100054: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10
-    100056: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/bone_11
-    100058: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/bone_11/bone_12
-    400000: Flit2.0_GO/Flit2.0_GO/Transform
-    400002: Flit2.0_GO/Flit2.0_GO/BackFoot/Transform
-    400004: Flit2.0_GO/Flit2.0_GO/BackforearmIhope/Transform
-    400006: Flit2.0_GO/Flit2.0_GO/BACKHAND/Transform
-    400008: Flit2.0_GO/Flit2.0_GO/BackLegCalf/Transform
-    400010: Flit2.0_GO/Flit2.0_GO/BackLegThigh/Transform
-    400012: Flit2.0_GO/Flit2.0_GO/BackUpperArm/Transform
-    400014: Flit2.0_GO/Flit2.0_GO/Cloak/Transform
-    400016: Flit2.0_GO/Flit2.0_GO/FrontCalf/Transform
-    400018: Flit2.0_GO/Flit2.0_GO/FrontFoot/Transform
-    400020: Flit2.0_GO/Flit2.0_GO/FrontForearm/Transform
-    400022: Flit2.0_GO/Flit2.0_GO/Fronthand/Transform
-    400024: Flit2.0_GO/Flit2.0_GO/FrontThigh/Transform
-    400026: Flit2.0_GO/Flit2.0_GO/FrontUpperArm/Transform
-    400028: Flit2.0_GO/Flit2.0_GO/HeadMask/Transform
-    400030: Flit2.0_GO/Flit2.0_GO/Tail/Transform
-    400032: Flit2.0_GO/Flit2.0_GO/bone_1/Transform
-    400034: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/Transform
-    400036: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/bone_13/Transform
-    400038: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/bone_13/bone_3/Transform
-    400040: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/Transform
-    400042: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/bone_14/Transform
-    400044: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/bone_14/bone_5/Transform
-    400046: Flit2.0_GO/Flit2.0_GO/bone_1/bone_6/Transform
-    400048: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/Transform
-    400050: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/bone_8/Transform
-    400052: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/bone_8/bone_9/Transform
-    400054: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/Transform
-    400056: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/bone_11/Transform
-    400058: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/bone_11/bone_12/Transform
-    2800000: Flit2.0
-    11400000: Flit2.0_GO/Flit2.0_GO/BackFoot/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400002: Flit2.0_GO/Flit2.0_GO/BackforearmIhope/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400004: Flit2.0_GO/Flit2.0_GO/BACKHAND/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400006: Flit2.0_GO/Flit2.0_GO/BackLegCalf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400008: Flit2.0_GO/Flit2.0_GO/BackLegThigh/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400010: Flit2.0_GO/Flit2.0_GO/BackUpperArm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400012: Flit2.0_GO/Flit2.0_GO/Cloak/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400014: Flit2.0_GO/Flit2.0_GO/FrontCalf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400016: Flit2.0_GO/Flit2.0_GO/FrontFoot/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400018: Flit2.0_GO/Flit2.0_GO/FrontForearm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400020: Flit2.0_GO/Flit2.0_GO/Fronthand/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400022: Flit2.0_GO/Flit2.0_GO/FrontThigh/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400024: Flit2.0_GO/Flit2.0_GO/FrontUpperArm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400026: Flit2.0_GO/Flit2.0_GO/HeadMask/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400028: Flit2.0_GO/Flit2.0_GO/Tail/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    21200000: Flit2.0_GO/Flit2.0_GO/BackFoot/SpriteRenderer
-    21200002: Flit2.0_GO/Flit2.0_GO/BackforearmIhope/SpriteRenderer
-    21200004: Flit2.0_GO/Flit2.0_GO/BACKHAND/SpriteRenderer
-    21200006: Flit2.0_GO/Flit2.0_GO/BackLegCalf/SpriteRenderer
-    21200008: Flit2.0_GO/Flit2.0_GO/BackLegThigh/SpriteRenderer
-    21200010: Flit2.0_GO/Flit2.0_GO/BackUpperArm/SpriteRenderer
-    21200012: Flit2.0_GO/Flit2.0_GO/Cloak/SpriteRenderer
-    21200014: Flit2.0_GO/Flit2.0_GO/FrontCalf/SpriteRenderer
-    21200016: Flit2.0_GO/Flit2.0_GO/FrontFoot/SpriteRenderer
-    21200018: Flit2.0_GO/Flit2.0_GO/FrontForearm/SpriteRenderer
-    21200020: Flit2.0_GO/Flit2.0_GO/Fronthand/SpriteRenderer
-    21200022: Flit2.0_GO/Flit2.0_GO/FrontThigh/SpriteRenderer
-    21200024: Flit2.0_GO/Flit2.0_GO/FrontUpperArm/SpriteRenderer
-    21200026: Flit2.0_GO/Flit2.0_GO/HeadMask/SpriteRenderer
-    21200028: Flit2.0_GO/Flit2.0_GO/Tail/SpriteRenderer
-    21300000: d3d2b14dc0119684ca28d27ea53eb687
-    21300002: 258c1677c0dc4d84f930ea14fc2dda93
-    21300004: 07c1b03dc98ee8841a63ec96ae4cbd56
-    21300006: 0e50e7ce73ee68742a78c92c8d86cdef
-    21300008: ae33a5bdc90a8b14791867c0e20682aa
-    21300010: b86adb10c92cfd940859b7a3e3a72797
-    21300012: ff0a40d88df3a1342823f47bcb2b2b9a
-    21300014: a1380cf5fd4d5fc4ebc98858443d25b0
-    21300016: 59be04e22854b4e4090da17a3234ca45
-    21300018: 0540badee8894304b91bb67828d71dfc
-    21300020: 68b72a31f7de53241b9e842ca6ea25b9
-    21300022: 2fc5a5c6733d6f144be0d8bc5345eba6
-    21300024: de70f6ce18d145847b1c469ba9b3db0a
-    21300026: 2462dd35b7bcc1c48b49be72cb896a59
-    21300028: 72ec7063a71b35f49a0a9e466e58ab1d
-    100100000: Flit2.0_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Flit2.0_GO/Flit2.0_GO
+  - first:
+      1: 100002
+    second: Flit2.0_GO/Flit2.0_GO/BackFoot
+  - first:
+      1: 100004
+    second: Flit2.0_GO/Flit2.0_GO/BackforearmIhope
+  - first:
+      1: 100006
+    second: Flit2.0_GO/Flit2.0_GO/BACKHAND
+  - first:
+      1: 100008
+    second: Flit2.0_GO/Flit2.0_GO/BackLegCalf
+  - first:
+      1: 100010
+    second: Flit2.0_GO/Flit2.0_GO/BackLegThigh
+  - first:
+      1: 100012
+    second: Flit2.0_GO/Flit2.0_GO/BackUpperArm
+  - first:
+      1: 100014
+    second: Flit2.0_GO/Flit2.0_GO/Cloak
+  - first:
+      1: 100016
+    second: Flit2.0_GO/Flit2.0_GO/FrontCalf
+  - first:
+      1: 100018
+    second: Flit2.0_GO/Flit2.0_GO/FrontFoot
+  - first:
+      1: 100020
+    second: Flit2.0_GO/Flit2.0_GO/FrontForearm
+  - first:
+      1: 100022
+    second: Flit2.0_GO/Flit2.0_GO/Fronthand
+  - first:
+      1: 100024
+    second: Flit2.0_GO/Flit2.0_GO/FrontThigh
+  - first:
+      1: 100026
+    second: Flit2.0_GO/Flit2.0_GO/FrontUpperArm
+  - first:
+      1: 100028
+    second: Flit2.0_GO/Flit2.0_GO/HeadMask
+  - first:
+      1: 100030
+    second: Flit2.0_GO/Flit2.0_GO/Tail
+  - first:
+      1: 100032
+    second: Flit2.0_GO/Flit2.0_GO/bone_1
+  - first:
+      1: 100034
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2
+  - first:
+      1: 100036
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/bone_13
+  - first:
+      1: 100038
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/bone_13/bone_3
+  - first:
+      1: 100040
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4
+  - first:
+      1: 100042
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/bone_14
+  - first:
+      1: 100044
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/bone_14/bone_5
+  - first:
+      1: 100046
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_6
+  - first:
+      1: 100048
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7
+  - first:
+      1: 100050
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/bone_8
+  - first:
+      1: 100052
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/bone_8/bone_9
+  - first:
+      1: 100054
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10
+  - first:
+      1: 100056
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/bone_11
+  - first:
+      1: 100058
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/bone_11/bone_12
+  - first:
+      4: 400000
+    second: Flit2.0_GO/Flit2.0_GO/Transform
+  - first:
+      4: 400002
+    second: Flit2.0_GO/Flit2.0_GO/BackFoot/Transform
+  - first:
+      4: 400004
+    second: Flit2.0_GO/Flit2.0_GO/BackforearmIhope/Transform
+  - first:
+      4: 400006
+    second: Flit2.0_GO/Flit2.0_GO/BACKHAND/Transform
+  - first:
+      4: 400008
+    second: Flit2.0_GO/Flit2.0_GO/BackLegCalf/Transform
+  - first:
+      4: 400010
+    second: Flit2.0_GO/Flit2.0_GO/BackLegThigh/Transform
+  - first:
+      4: 400012
+    second: Flit2.0_GO/Flit2.0_GO/BackUpperArm/Transform
+  - first:
+      4: 400014
+    second: Flit2.0_GO/Flit2.0_GO/Cloak/Transform
+  - first:
+      4: 400016
+    second: Flit2.0_GO/Flit2.0_GO/FrontCalf/Transform
+  - first:
+      4: 400018
+    second: Flit2.0_GO/Flit2.0_GO/FrontFoot/Transform
+  - first:
+      4: 400020
+    second: Flit2.0_GO/Flit2.0_GO/FrontForearm/Transform
+  - first:
+      4: 400022
+    second: Flit2.0_GO/Flit2.0_GO/Fronthand/Transform
+  - first:
+      4: 400024
+    second: Flit2.0_GO/Flit2.0_GO/FrontThigh/Transform
+  - first:
+      4: 400026
+    second: Flit2.0_GO/Flit2.0_GO/FrontUpperArm/Transform
+  - first:
+      4: 400028
+    second: Flit2.0_GO/Flit2.0_GO/HeadMask/Transform
+  - first:
+      4: 400030
+    second: Flit2.0_GO/Flit2.0_GO/Tail/Transform
+  - first:
+      4: 400032
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/Transform
+  - first:
+      4: 400034
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/Transform
+  - first:
+      4: 400036
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/bone_13/Transform
+  - first:
+      4: 400038
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_2/bone_13/bone_3/Transform
+  - first:
+      4: 400040
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/Transform
+  - first:
+      4: 400042
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/bone_14/Transform
+  - first:
+      4: 400044
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_4/bone_14/bone_5/Transform
+  - first:
+      4: 400046
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_6/Transform
+  - first:
+      4: 400048
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/Transform
+  - first:
+      4: 400050
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/bone_8/Transform
+  - first:
+      4: 400052
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_7/bone_8/bone_9/Transform
+  - first:
+      4: 400054
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/Transform
+  - first:
+      4: 400056
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/bone_11/Transform
+  - first:
+      4: 400058
+    second: Flit2.0_GO/Flit2.0_GO/bone_1/bone_10/bone_11/bone_12/Transform
+  - first:
+      28: 2800000
+    second: Flit2.0
+  - first:
+      114: 11400000
+    second: Flit2.0_GO/Flit2.0_GO/BackFoot/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400002
+    second: Flit2.0_GO/Flit2.0_GO/BackforearmIhope/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400004
+    second: Flit2.0_GO/Flit2.0_GO/BACKHAND/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400006
+    second: Flit2.0_GO/Flit2.0_GO/BackLegCalf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400008
+    second: Flit2.0_GO/Flit2.0_GO/BackLegThigh/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400010
+    second: Flit2.0_GO/Flit2.0_GO/BackUpperArm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400012
+    second: Flit2.0_GO/Flit2.0_GO/Cloak/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400014
+    second: Flit2.0_GO/Flit2.0_GO/FrontCalf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400016
+    second: Flit2.0_GO/Flit2.0_GO/FrontFoot/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400018
+    second: Flit2.0_GO/Flit2.0_GO/FrontForearm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400020
+    second: Flit2.0_GO/Flit2.0_GO/Fronthand/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400022
+    second: Flit2.0_GO/Flit2.0_GO/FrontThigh/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400024
+    second: Flit2.0_GO/Flit2.0_GO/FrontUpperArm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400026
+    second: Flit2.0_GO/Flit2.0_GO/HeadMask/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400028
+    second: Flit2.0_GO/Flit2.0_GO/Tail/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      212: 21200000
+    second: Flit2.0_GO/Flit2.0_GO/BackFoot/SpriteRenderer
+  - first:
+      212: 21200002
+    second: Flit2.0_GO/Flit2.0_GO/BackforearmIhope/SpriteRenderer
+  - first:
+      212: 21200004
+    second: Flit2.0_GO/Flit2.0_GO/BACKHAND/SpriteRenderer
+  - first:
+      212: 21200006
+    second: Flit2.0_GO/Flit2.0_GO/BackLegCalf/SpriteRenderer
+  - first:
+      212: 21200008
+    second: Flit2.0_GO/Flit2.0_GO/BackLegThigh/SpriteRenderer
+  - first:
+      212: 21200010
+    second: Flit2.0_GO/Flit2.0_GO/BackUpperArm/SpriteRenderer
+  - first:
+      212: 21200012
+    second: Flit2.0_GO/Flit2.0_GO/Cloak/SpriteRenderer
+  - first:
+      212: 21200014
+    second: Flit2.0_GO/Flit2.0_GO/FrontCalf/SpriteRenderer
+  - first:
+      212: 21200016
+    second: Flit2.0_GO/Flit2.0_GO/FrontFoot/SpriteRenderer
+  - first:
+      212: 21200018
+    second: Flit2.0_GO/Flit2.0_GO/FrontForearm/SpriteRenderer
+  - first:
+      212: 21200020
+    second: Flit2.0_GO/Flit2.0_GO/Fronthand/SpriteRenderer
+  - first:
+      212: 21200022
+    second: Flit2.0_GO/Flit2.0_GO/FrontThigh/SpriteRenderer
+  - first:
+      212: 21200024
+    second: Flit2.0_GO/Flit2.0_GO/FrontUpperArm/SpriteRenderer
+  - first:
+      212: 21200026
+    second: Flit2.0_GO/Flit2.0_GO/HeadMask/SpriteRenderer
+  - first:
+      212: 21200028
+    second: Flit2.0_GO/Flit2.0_GO/Tail/SpriteRenderer
+  - first:
+      213: 21300000
+    second: d3d2b14dc0119684ca28d27ea53eb687
+  - first:
+      213: 21300002
+    second: 258c1677c0dc4d84f930ea14fc2dda93
+  - first:
+      213: 21300004
+    second: 07c1b03dc98ee8841a63ec96ae4cbd56
+  - first:
+      213: 21300006
+    second: 0e50e7ce73ee68742a78c92c8d86cdef
+  - first:
+      213: 21300008
+    second: ae33a5bdc90a8b14791867c0e20682aa
+  - first:
+      213: 21300010
+    second: b86adb10c92cfd940859b7a3e3a72797
+  - first:
+      213: 21300012
+    second: ff0a40d88df3a1342823f47bcb2b2b9a
+  - first:
+      213: 21300014
+    second: a1380cf5fd4d5fc4ebc98858443d25b0
+  - first:
+      213: 21300016
+    second: 59be04e22854b4e4090da17a3234ca45
+  - first:
+      213: 21300018
+    second: 0540badee8894304b91bb67828d71dfc
+  - first:
+      213: 21300020
+    second: 68b72a31f7de53241b9e842ca6ea25b9
+  - first:
+      213: 21300022
+    second: 2fc5a5c6733d6f144be0d8bc5345eba6
+  - first:
+      213: 21300024
+    second: de70f6ce18d145847b1c469ba9b3db0a
+  - first:
+      213: 21300026
+    second: 2462dd35b7bcc1c48b49be72cb896a59
+  - first:
+      213: 21300028
+    second: 72ec7063a71b35f49a0a9e466e58ab1d
+  - first:
+      1001: 100100000
+    second: Flit2.0_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -180,6 +395,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -203,6 +419,7 @@ ScriptedImporter:
       width: 55
       height: 155
     spriteID: d3d2b14dc0119684ca28d27ea53eb687
+    internalID: 0
     spriteBone:
     - name: bone_7
       position: {x: 19.753235, y: 123.43921, z: 0}
@@ -726,6 +943,7 @@ ScriptedImporter:
       width: 53
       height: 48
     spriteID: 258c1677c0dc4d84f930ea14fc2dda93
+    internalID: 0
     spriteBone:
     - name: bone_9
       position: {x: 14.707581, y: 33.053833, z: 0}
@@ -1058,6 +1276,7 @@ ScriptedImporter:
       width: 58
       height: 183
     spriteID: 07c1b03dc98ee8841a63ec96ae4cbd56
+    internalID: 0
     spriteBone:
     - name: bone_8
       position: {x: 11.414917, y: 171.03027, z: 0}
@@ -1561,6 +1780,7 @@ ScriptedImporter:
       width: 278
       height: 305
     spriteID: 0e50e7ce73ee68742a78c92c8d86cdef
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 115.87244, y: -361.9187, z: 0}
@@ -2051,6 +2271,7 @@ ScriptedImporter:
       width: 493
       height: 746
     spriteID: ae33a5bdc90a8b14791867c0e20682aa
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 294.87244, y: 151.0813, z: 0}
@@ -2568,6 +2789,7 @@ ScriptedImporter:
       width: 80
       height: 165
     spriteID: b86adb10c92cfd940859b7a3e3a72797
+    internalID: 0
     spriteBone:
     - name: bone_2
       position: {x: 41.480957, y: 172.94928, z: 0}
@@ -2963,6 +3185,7 @@ ScriptedImporter:
       width: 91
       height: 45
     spriteID: ff0a40d88df3a1342823f47bcb2b2b9a
+    internalID: 0
     spriteBone:
     - name: bone_3
       position: {x: 16.604431, y: 16.620544, z: 0}
@@ -3315,6 +3538,7 @@ ScriptedImporter:
       width: 74
       height: 216
     spriteID: a1380cf5fd4d5fc4ebc98858443d25b0
+    internalID: 0
     spriteBone:
     - name: bone_13
       position: {x: 61.167664, y: 199.74573, z: 0}
@@ -3808,6 +4032,7 @@ ScriptedImporter:
       width: 80
       height: 164
     spriteID: 59be04e22854b4e4090da17a3234ca45
+    internalID: 0
     spriteBone:
     - name: bone_4
       position: {x: 49.881226, y: 152.51483, z: 0}
@@ -4182,6 +4407,7 @@ ScriptedImporter:
       width: 75
       height: 213
     spriteID: 0540badee8894304b91bb67828d71dfc
+    internalID: 0
     spriteBone:
     - name: bone_14
       position: {x: 62.480774, y: 187.61621, z: 0}
@@ -4676,6 +4902,7 @@ ScriptedImporter:
       width: 86
       height: 44
     spriteID: 68b72a31f7de53241b9e842ca6ea25b9
+    internalID: 0
     spriteBone:
     - name: bone_5
       position: {x: 25.137451, y: 20.798218, z: 0}
@@ -5059,6 +5286,7 @@ ScriptedImporter:
       width: 222
       height: 494
     spriteID: 2fc5a5c6733d6f144be0d8bc5345eba6
+    internalID: 0
     spriteBone:
     - name: bone_6
       position: {x: 97.974365, y: 106.35974, z: 0}
@@ -5623,6 +5851,7 @@ ScriptedImporter:
       width: 55
       height: 154
     spriteID: de70f6ce18d145847b1c469ba9b3db0a
+    internalID: 0
     spriteBone:
     - name: bone_10
       position: {x: 45.897644, y: 139.32153, z: 0}
@@ -6125,6 +6354,7 @@ ScriptedImporter:
       width: 48
       height: 46
     spriteID: 2462dd35b7bcc1c48b49be72cb896a59
+    internalID: 0
     spriteBone:
     - name: bone_12
       position: {x: 43.410706, y: 32.938538, z: 0}
@@ -6509,6 +6739,7 @@ ScriptedImporter:
       width: 53
       height: 169
     spriteID: 72ec7063a71b35f49a0a9e466e58ab1d
+    internalID: 0
     spriteBone:
     - name: bone_11
       position: {x: 41.220825, y: 191.79736, z: 0}

@@ -1,115 +1,330 @@
 fileFormatVersion: 2
 guid: 8913556c9dc8aec46b845254e052ba07
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: PSBFlit 1_GO/PSBFlit 1_GO
-    100002: PSBFlit 1_GO/PSBFlit 1_GO/BackFoot
-    100004: PSBFlit 1_GO/PSBFlit 1_GO/BackforearmIhope
-    100006: PSBFlit 1_GO/PSBFlit 1_GO/BACKHAND
-    100008: PSBFlit 1_GO/PSBFlit 1_GO/BackLegCalf
-    100010: PSBFlit 1_GO/PSBFlit 1_GO/BackLegThigh
-    100012: PSBFlit 1_GO/PSBFlit 1_GO/BackUpperArm
-    100014: PSBFlit 1_GO/PSBFlit 1_GO/Cloak
-    100016: PSBFlit 1_GO/PSBFlit 1_GO/FrontCalf
-    100018: PSBFlit 1_GO/PSBFlit 1_GO/FrontFoot
-    100020: PSBFlit 1_GO/PSBFlit 1_GO/FrontForearm
-    100022: PSBFlit 1_GO/PSBFlit 1_GO/Fronthand
-    100024: PSBFlit 1_GO/PSBFlit 1_GO/FrontThigh
-    100026: PSBFlit 1_GO/PSBFlit 1_GO/FrontUpperArm
-    100028: PSBFlit 1_GO/PSBFlit 1_GO/HeadMask
-    100030: PSBFlit 1_GO/PSBFlit 1_GO/Tail
-    100032: PSBFlit 1_GO/PSBFlit 1_GO/bone_1
-    100060: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2
-    100062: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/bone_3
-    100064: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/bone_3/bone_4
-    100066: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5
-    100068: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/bone_6
-    100070: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/bone_6/bone_7
-    100072: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8
-    100074: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/bone_9
-    100076: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/bone_9/bone_10
-    100078: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_11
-    100080: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12
-    100082: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/bone_13
-    100084: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/bone_13/bone_14
-    400000: PSBFlit 1_GO/PSBFlit 1_GO/Transform
-    400002: PSBFlit 1_GO/PSBFlit 1_GO/BackFoot/Transform
-    400004: PSBFlit 1_GO/PSBFlit 1_GO/BackforearmIhope/Transform
-    400006: PSBFlit 1_GO/PSBFlit 1_GO/BACKHAND/Transform
-    400008: PSBFlit 1_GO/PSBFlit 1_GO/BackLegCalf/Transform
-    400010: PSBFlit 1_GO/PSBFlit 1_GO/BackLegThigh/Transform
-    400012: PSBFlit 1_GO/PSBFlit 1_GO/BackUpperArm/Transform
-    400014: PSBFlit 1_GO/PSBFlit 1_GO/Cloak/Transform
-    400016: PSBFlit 1_GO/PSBFlit 1_GO/FrontCalf/Transform
-    400018: PSBFlit 1_GO/PSBFlit 1_GO/FrontFoot/Transform
-    400020: PSBFlit 1_GO/PSBFlit 1_GO/FrontForearm/Transform
-    400022: PSBFlit 1_GO/PSBFlit 1_GO/Fronthand/Transform
-    400024: PSBFlit 1_GO/PSBFlit 1_GO/FrontThigh/Transform
-    400026: PSBFlit 1_GO/PSBFlit 1_GO/FrontUpperArm/Transform
-    400028: PSBFlit 1_GO/PSBFlit 1_GO/HeadMask/Transform
-    400030: PSBFlit 1_GO/PSBFlit 1_GO/Tail/Transform
-    400032: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/Transform
-    400060: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/Transform
-    400062: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/bone_3/Transform
-    400064: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/bone_3/bone_4/Transform
-    400066: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/Transform
-    400068: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/bone_6/Transform
-    400070: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/bone_6/bone_7/Transform
-    400072: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/Transform
-    400074: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/bone_9/Transform
-    400076: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/bone_9/bone_10/Transform
-    400078: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_11/Transform
-    400080: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/Transform
-    400082: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/bone_13/Transform
-    400084: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/bone_13/bone_14/Transform
-    2800000: PSBFlit 1
-    11400000: PSBFlit 1_GO/PSBFlit 1_GO/BackFoot/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400002: PSBFlit 1_GO/PSBFlit 1_GO/BackforearmIhope/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400004: PSBFlit 1_GO/PSBFlit 1_GO/BACKHAND/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400006: PSBFlit 1_GO/PSBFlit 1_GO/BackLegCalf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400008: PSBFlit 1_GO/PSBFlit 1_GO/BackLegThigh/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400010: PSBFlit 1_GO/PSBFlit 1_GO/BackUpperArm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400012: PSBFlit 1_GO/PSBFlit 1_GO/Cloak/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400014: PSBFlit 1_GO/PSBFlit 1_GO/FrontCalf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400016: PSBFlit 1_GO/PSBFlit 1_GO/FrontFoot/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400018: PSBFlit 1_GO/PSBFlit 1_GO/FrontForearm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400020: PSBFlit 1_GO/PSBFlit 1_GO/Fronthand/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400022: PSBFlit 1_GO/PSBFlit 1_GO/FrontThigh/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400024: PSBFlit 1_GO/PSBFlit 1_GO/FrontUpperArm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400026: PSBFlit 1_GO/PSBFlit 1_GO/HeadMask/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    11400028: PSBFlit 1_GO/PSBFlit 1_GO/Tail/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    21200000: PSBFlit 1_GO/PSBFlit 1_GO/BackFoot/SpriteRenderer
-    21200002: PSBFlit 1_GO/PSBFlit 1_GO/BackforearmIhope/SpriteRenderer
-    21200004: PSBFlit 1_GO/PSBFlit 1_GO/BACKHAND/SpriteRenderer
-    21200006: PSBFlit 1_GO/PSBFlit 1_GO/BackLegCalf/SpriteRenderer
-    21200008: PSBFlit 1_GO/PSBFlit 1_GO/BackLegThigh/SpriteRenderer
-    21200010: PSBFlit 1_GO/PSBFlit 1_GO/BackUpperArm/SpriteRenderer
-    21200012: PSBFlit 1_GO/PSBFlit 1_GO/Cloak/SpriteRenderer
-    21200014: PSBFlit 1_GO/PSBFlit 1_GO/FrontCalf/SpriteRenderer
-    21200016: PSBFlit 1_GO/PSBFlit 1_GO/FrontFoot/SpriteRenderer
-    21200018: PSBFlit 1_GO/PSBFlit 1_GO/FrontForearm/SpriteRenderer
-    21200020: PSBFlit 1_GO/PSBFlit 1_GO/Fronthand/SpriteRenderer
-    21200022: PSBFlit 1_GO/PSBFlit 1_GO/FrontThigh/SpriteRenderer
-    21200024: PSBFlit 1_GO/PSBFlit 1_GO/FrontUpperArm/SpriteRenderer
-    21200026: PSBFlit 1_GO/PSBFlit 1_GO/HeadMask/SpriteRenderer
-    21200028: PSBFlit 1_GO/PSBFlit 1_GO/Tail/SpriteRenderer
-    21300000: 827c7cc85bffbc443ad95f423b39a68e
-    21300002: 2e1495115bc30b541b0a56fb662ccba4
-    21300004: 7415b761243b64c40965c19844e03816
-    21300006: d1ea6f3442d75ee4290fa72b36860a6f
-    21300008: b1d0c0a051ab4bc4e8ff9dda2b24f203
-    21300010: 6f07878027913ae40acfeb00279aef0f
-    21300012: c75c81173636f584fab86609dcf00202
-    21300014: e532d3c7a5fb6194684a68f7f713930e
-    21300016: 65fc788cdb83d944aa5aeb2c1e13737c
-    21300018: 8a7b1916f7859c64f9076673f128e552
-    21300020: 9e811aa98fcac1b40a1a26c052bfde9f
-    21300022: b8e4329a58066d24981899d23689873f
-    21300024: fb6c197a1f30c934795745b64dff1ee5
-    21300026: 9038d05d4f8ee7a41b0cdf6b7b41ce96
-    21300028: 7e6f6e27d53595e4d82f1118a70bd1ab
-    100100000: PSBFlit 1_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: PSBFlit 1_GO/PSBFlit 1_GO
+  - first:
+      1: 100002
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackFoot
+  - first:
+      1: 100004
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackforearmIhope
+  - first:
+      1: 100006
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BACKHAND
+  - first:
+      1: 100008
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackLegCalf
+  - first:
+      1: 100010
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackLegThigh
+  - first:
+      1: 100012
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackUpperArm
+  - first:
+      1: 100014
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Cloak
+  - first:
+      1: 100016
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontCalf
+  - first:
+      1: 100018
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontFoot
+  - first:
+      1: 100020
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontForearm
+  - first:
+      1: 100022
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Fronthand
+  - first:
+      1: 100024
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontThigh
+  - first:
+      1: 100026
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontUpperArm
+  - first:
+      1: 100028
+    second: PSBFlit 1_GO/PSBFlit 1_GO/HeadMask
+  - first:
+      1: 100030
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Tail
+  - first:
+      1: 100032
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1
+  - first:
+      1: 100060
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2
+  - first:
+      1: 100062
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/bone_3
+  - first:
+      1: 100064
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/bone_3/bone_4
+  - first:
+      1: 100066
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5
+  - first:
+      1: 100068
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/bone_6
+  - first:
+      1: 100070
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/bone_6/bone_7
+  - first:
+      1: 100072
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8
+  - first:
+      1: 100074
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/bone_9
+  - first:
+      1: 100076
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/bone_9/bone_10
+  - first:
+      1: 100078
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_11
+  - first:
+      1: 100080
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12
+  - first:
+      1: 100082
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/bone_13
+  - first:
+      1: 100084
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/bone_13/bone_14
+  - first:
+      4: 400000
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Transform
+  - first:
+      4: 400002
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackFoot/Transform
+  - first:
+      4: 400004
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackforearmIhope/Transform
+  - first:
+      4: 400006
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BACKHAND/Transform
+  - first:
+      4: 400008
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackLegCalf/Transform
+  - first:
+      4: 400010
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackLegThigh/Transform
+  - first:
+      4: 400012
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackUpperArm/Transform
+  - first:
+      4: 400014
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Cloak/Transform
+  - first:
+      4: 400016
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontCalf/Transform
+  - first:
+      4: 400018
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontFoot/Transform
+  - first:
+      4: 400020
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontForearm/Transform
+  - first:
+      4: 400022
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Fronthand/Transform
+  - first:
+      4: 400024
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontThigh/Transform
+  - first:
+      4: 400026
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontUpperArm/Transform
+  - first:
+      4: 400028
+    second: PSBFlit 1_GO/PSBFlit 1_GO/HeadMask/Transform
+  - first:
+      4: 400030
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Tail/Transform
+  - first:
+      4: 400032
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/Transform
+  - first:
+      4: 400060
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/Transform
+  - first:
+      4: 400062
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/bone_3/Transform
+  - first:
+      4: 400064
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_2/bone_3/bone_4/Transform
+  - first:
+      4: 400066
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/Transform
+  - first:
+      4: 400068
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/bone_6/Transform
+  - first:
+      4: 400070
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_5/bone_6/bone_7/Transform
+  - first:
+      4: 400072
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/Transform
+  - first:
+      4: 400074
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/bone_9/Transform
+  - first:
+      4: 400076
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_8/bone_9/bone_10/Transform
+  - first:
+      4: 400078
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_11/Transform
+  - first:
+      4: 400080
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/Transform
+  - first:
+      4: 400082
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/bone_13/Transform
+  - first:
+      4: 400084
+    second: PSBFlit 1_GO/PSBFlit 1_GO/bone_1/bone_12/bone_13/bone_14/Transform
+  - first:
+      28: 2800000
+    second: PSBFlit 1
+  - first:
+      114: 11400000
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackFoot/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400002
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackforearmIhope/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400004
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BACKHAND/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400006
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackLegCalf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400008
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackLegThigh/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400010
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackUpperArm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400012
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Cloak/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400014
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontCalf/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400016
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontFoot/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400018
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontForearm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400020
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Fronthand/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400022
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontThigh/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400024
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontUpperArm/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400026
+    second: PSBFlit 1_GO/PSBFlit 1_GO/HeadMask/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      114: 11400028
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Tail/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      212: 21200000
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackFoot/SpriteRenderer
+  - first:
+      212: 21200002
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackforearmIhope/SpriteRenderer
+  - first:
+      212: 21200004
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BACKHAND/SpriteRenderer
+  - first:
+      212: 21200006
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackLegCalf/SpriteRenderer
+  - first:
+      212: 21200008
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackLegThigh/SpriteRenderer
+  - first:
+      212: 21200010
+    second: PSBFlit 1_GO/PSBFlit 1_GO/BackUpperArm/SpriteRenderer
+  - first:
+      212: 21200012
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Cloak/SpriteRenderer
+  - first:
+      212: 21200014
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontCalf/SpriteRenderer
+  - first:
+      212: 21200016
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontFoot/SpriteRenderer
+  - first:
+      212: 21200018
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontForearm/SpriteRenderer
+  - first:
+      212: 21200020
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Fronthand/SpriteRenderer
+  - first:
+      212: 21200022
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontThigh/SpriteRenderer
+  - first:
+      212: 21200024
+    second: PSBFlit 1_GO/PSBFlit 1_GO/FrontUpperArm/SpriteRenderer
+  - first:
+      212: 21200026
+    second: PSBFlit 1_GO/PSBFlit 1_GO/HeadMask/SpriteRenderer
+  - first:
+      212: 21200028
+    second: PSBFlit 1_GO/PSBFlit 1_GO/Tail/SpriteRenderer
+  - first:
+      213: 21300000
+    second: 827c7cc85bffbc443ad95f423b39a68e
+  - first:
+      213: 21300002
+    second: 2e1495115bc30b541b0a56fb662ccba4
+  - first:
+      213: 21300004
+    second: 7415b761243b64c40965c19844e03816
+  - first:
+      213: 21300006
+    second: d1ea6f3442d75ee4290fa72b36860a6f
+  - first:
+      213: 21300008
+    second: b1d0c0a051ab4bc4e8ff9dda2b24f203
+  - first:
+      213: 21300010
+    second: 6f07878027913ae40acfeb00279aef0f
+  - first:
+      213: 21300012
+    second: c75c81173636f584fab86609dcf00202
+  - first:
+      213: 21300014
+    second: e532d3c7a5fb6194684a68f7f713930e
+  - first:
+      213: 21300016
+    second: 65fc788cdb83d944aa5aeb2c1e13737c
+  - first:
+      213: 21300018
+    second: 8a7b1916f7859c64f9076673f128e552
+  - first:
+      213: 21300020
+    second: 9e811aa98fcac1b40a1a26c052bfde9f
+  - first:
+      213: 21300022
+    second: b8e4329a58066d24981899d23689873f
+  - first:
+      213: 21300024
+    second: fb6c197a1f30c934795745b64dff1ee5
+  - first:
+      213: 21300026
+    second: 9038d05d4f8ee7a41b0cdf6b7b41ce96
+  - first:
+      213: 21300028
+    second: 7e6f6e27d53595e4d82f1118a70bd1ab
+  - first:
+      1001: 100100000
+    second: PSBFlit 1_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -180,6 +395,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -203,6 +419,7 @@ ScriptedImporter:
       width: 55
       height: 155
     spriteID: 827c7cc85bffbc443ad95f423b39a68e
+    internalID: 0
     spriteBone:
     - name: bone_5
       position: {x: 21.85019, y: 140.16345, z: 0}
@@ -726,6 +943,7 @@ ScriptedImporter:
       width: 53
       height: 48
     spriteID: 2e1495115bc30b541b0a56fb662ccba4
+    internalID: 0
     spriteBone:
     - name: bone_7
       position: {x: 145.35303, y: 0.000054474454, z: 0}
@@ -1063,6 +1281,7 @@ ScriptedImporter:
       width: 58
       height: 183
     spriteID: 7415b761243b64c40965c19844e03816
+    internalID: 0
     spriteBone:
     - name: bone_7
       position: {x: 145.35298, y: 0.000108628454, z: 0}
@@ -1576,6 +1795,7 @@ ScriptedImporter:
       width: 278
       height: 305
     spriteID: d1ea6f3442d75ee4290fa72b36860a6f
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 150.66821, y: -364.9496, z: 0}
@@ -2066,6 +2286,7 @@ ScriptedImporter:
       width: 493
       height: 746
     spriteID: b1d0c0a051ab4bc4e8ff9dda2b24f203
+    internalID: 0
     spriteBone:
     - name: bone_1
       position: {x: 329.6682, y: 148.05042, z: 0}
@@ -2583,6 +2804,7 @@ ScriptedImporter:
       width: 80
       height: 165
     spriteID: 6f07878027913ae40acfeb00279aef0f
+    internalID: 0
     spriteBone:
     - name: bone_3
       position: {x: 139.84683, y: 0.000045934117, z: 0}
@@ -2983,6 +3205,7 @@ ScriptedImporter:
       width: 91
       height: 45
     spriteID: c75c81173636f584fab86609dcf00202
+    internalID: 0
     spriteBone:
     - name: bone_4
       position: {x: 194.02061, y: 0.000116008494, z: 0}
@@ -3340,6 +3563,7 @@ ScriptedImporter:
       width: 74
       height: 216
     spriteID: e532d3c7a5fb6194684a68f7f713930e
+    internalID: 0
     spriteBone:
     - name: bone_3
       position: {x: 139.84691, y: 0.00003071128, z: 0}
@@ -3838,6 +4062,7 @@ ScriptedImporter:
       width: 80
       height: 164
     spriteID: 65fc788cdb83d944aa5aeb2c1e13737c
+    internalID: 0
     spriteBone:
     - name: bone_12
       position: {x: 51.494812, y: 126.59375, z: 0}
@@ -4212,6 +4437,7 @@ ScriptedImporter:
       width: 75
       height: 213
     spriteID: 8a7b1916f7859c64f9076673f128e552
+    internalID: 0
     spriteBone:
     - name: bone_13
       position: {x: 140.95457, y: 0.000022734544, z: 0}
@@ -4711,6 +4937,7 @@ ScriptedImporter:
       width: 86
       height: 44
     spriteID: 9e811aa98fcac1b40a1a26c052bfde9f
+    internalID: 0
     spriteBone:
     - name: bone_14
       position: {x: 178.15822, y: 0.00003495211, z: 0}
@@ -5099,6 +5326,7 @@ ScriptedImporter:
       width: 222
       height: 494
     spriteID: b8e4329a58066d24981899d23689873f
+    internalID: 0
     spriteBone:
     - name: bone_11
       position: {x: 72.64166, y: 133.0769, z: 0}
@@ -5663,6 +5891,7 @@ ScriptedImporter:
       width: 55
       height: 154
     spriteID: fb6c197a1f30c934795745b64dff1ee5
+    internalID: 0
     spriteBone:
     - name: bone_8
       position: {x: 25.581604, y: 133.30298, z: 0}
@@ -6170,6 +6399,7 @@ ScriptedImporter:
       width: 48
       height: 46
     spriteID: 9038d05d4f8ee7a41b0cdf6b7b41ce96
+    internalID: 0
     spriteBone:
     - name: bone_10
       position: {x: 155.09315, y: -0.00009978766, z: 0}
@@ -6559,6 +6789,7 @@ ScriptedImporter:
       width: 53
       height: 169
     spriteID: 7e6f6e27d53595e4d82f1118a70bd1ab
+    internalID: 0
     spriteBone:
     - name: bone_9
       position: {x: 133.0997, y: 0.000060230228, z: 0}
