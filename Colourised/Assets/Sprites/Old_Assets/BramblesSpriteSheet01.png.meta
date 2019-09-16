@@ -1,13 +1,21 @@
 fileFormatVersion: 2
 guid: 8c5e7c4362d52be4189d220388637cce
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: BramblesSpriteSheet01_0
-    21300002: BramblesSpriteSheet01_1
-    21300004: BramblesSpriteSheet01_2
-    21300006: BramblesSpriteSheet01_3
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: BramblesSpriteSheet01_0
+  - first:
+      213: 21300002
+    second: BramblesSpriteSheet01_1
+  - first:
+      213: 21300004
+    second: BramblesSpriteSheet01_2
+  - first:
+      213: 21300006
+    second: BramblesSpriteSheet01_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -103,6 +111,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ac129e55f2155db46b7ea18ed3c2dca0
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -123,6 +132,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 10f7a34851bfbb149a9a7954bafbeb1e
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -143,6 +153,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 482d6cc59a43eee45b16793640c47e13
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -163,6 +174,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 02fba90dfa0138d4b9e8642c7e96d742
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -171,10 +183,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: b2d7c5262c682554e82d32eb54f91415
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

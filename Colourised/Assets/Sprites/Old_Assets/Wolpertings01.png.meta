@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: 73237f8e40c0d864da6ebd49d10689a0
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Wolpertings01_0
-    21300002: Wolpertings01_1
-    21300004: Wolpertings01_2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Wolpertings01_0
+  - first:
+      213: 21300002
+    second: Wolpertings01_1
+  - first:
+      213: 21300004
+    second: Wolpertings01_2
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -102,6 +108,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d7acd58daf4e4c949b87f911f1b41339
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -122,6 +129,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e35db322f12038b44af3ee860f05f80f
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -142,6 +150,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f05ab1282d203cc45b15c53f64f7e053
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -150,10 +159,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 26668cfacd90f4a47bf70a31299e9809
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

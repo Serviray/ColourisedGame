@@ -1,14 +1,24 @@
 fileFormatVersion: 2
 guid: 459262d275b9ef04f8bada1f585fa6b9
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Bushes_sheet_1_0
-    21300002: Bushes_sheet_1_1
-    21300004: Bushes_sheet_1_2
-    21300006: Bushes_sheet_1_3
-    21300008: Bushes_sheet_1_4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Bushes_sheet_1_0
+  - first:
+      213: 21300002
+    second: Bushes_sheet_1_1
+  - first:
+      213: 21300004
+    second: Bushes_sheet_1_2
+  - first:
+      213: 21300006
+    second: Bushes_sheet_1_3
+  - first:
+      213: 21300008
+    second: Bushes_sheet_1_4
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -104,6 +114,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b75162f92e9e36f4db445ce0caa0f553
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -124,6 +135,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8012382a521289240b9e82c319c3b471
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -144,6 +156,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1df66f222ca88e0459e05d27dc942038
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -164,6 +177,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b196ded0f72e7ea4caad7e7ce04be78f
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -184,6 +198,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1fff4365a876ed94c9970322318ab578
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -192,10 +207,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 01c76e675420c2348997bfc67f887a2a
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

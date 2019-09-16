@@ -1,11 +1,15 @@
 fileFormatVersion: 2
 guid: 6773d3577300ea349ac810d6221111b9
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Vines01_0
-    21300002: Vines01_1
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Vines01_0
+  - first:
+      213: 21300002
+    second: Vines01_1
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -101,6 +105,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9ca5496725ac17f4ca8a6f99e18d47c9
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -121,6 +126,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 980adf36dde960c4b83c10e6d265e934
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -129,10 +135,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 9b73f938c06930d4a8c728f489d6afda
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
