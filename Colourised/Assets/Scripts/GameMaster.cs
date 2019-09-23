@@ -54,4 +54,16 @@ public class GameMaster : MonoBehaviour
          }
      }
 
+    public void rePosition (GameObject Player) 
+     {
+         //Destroy (Player);
+         if (lastCheckPointPos != null)
+         {
+             //teleport and reset the player
+            player.transform.position = lastCheckPointPos;
+            playerHealth.takeDamage();
+         }
+     }
+
+
 }
