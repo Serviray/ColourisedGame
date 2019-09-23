@@ -5,10 +5,7 @@ using UnityEngine;
 public class PlayerPlatformerController : PhysicsObject 
 {
     public float maxSpeed = 7;
-    public float jumpTakeOffSpeed = 7;
-
-
-    public float glidevalue = 100;
+    public float jumpTakeOffSpeed = 12;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
     public Vector2 currentVelocity;
@@ -39,21 +36,6 @@ public class PlayerPlatformerController : PhysicsObject
                 velocity.y = velocity.y * 0.5f;
             }
         }
-
-        //Glide Ability
-        
-        /*if (Input.GetButtonDown ("Jump")&& !grounded)
-        { 
-            Debug.Log("Gliding");
-            Physics2D.gravity = new Vector2 (0, - Mathf.Abs (glidevalue / Time.deltaTime));
-        }
-        else if (Input.GetButtonUp ("Jump")&& !grounded)//release stop gliding
-        { 
-                Invoke("stopGliding", 5f);
-        }
-         */
-
-        
         
         if( (move.x > 0 && !facingRight) || (move.x < 0 && facingRight) )
         {
@@ -72,12 +54,6 @@ public class PlayerPlatformerController : PhysicsObject
     {
         //targetVelocity = newVelocity;
         rb2d.velocity = newVelocity;
-    }
-
-    private void stopGliding()
-    {
-    Debug.Log("STOP GLIDING");
-    Physics2D.gravity = new Vector2 (0, -9.8f );
     }
 
     private void Flip()
