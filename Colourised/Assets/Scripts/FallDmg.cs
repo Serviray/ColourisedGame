@@ -14,7 +14,7 @@ public class FallDmg : MonoBehaviour
     {
         if (col.tag == "Player")
         {
-            GameMaster.Instance().killPlayer(gameObject);
+            GameMaster.Instance().rePosition(gameObject);
         }
     }
 }
