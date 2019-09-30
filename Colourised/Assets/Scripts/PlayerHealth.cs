@@ -62,6 +62,7 @@ public class PlayerHealth : MonoBehaviour {
         }
     }
 
+
     public void playerHeal(){
         Debug.Log("Return One heart");
         numHearts = health+1;

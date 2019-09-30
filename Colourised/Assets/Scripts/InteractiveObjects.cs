@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class InteractiveObject : MonoBehaviour { 
-    [SerializeField]
-    Canvas messageCanvas;
+    public Canvas messageCanvas;
 
     void Start()
     {
@@ -12,7 +11,7 @@ public class InteractiveObject : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.name == "2DCharacter")
+        if (other.name == "player")
         {
             TurnOnMessage();
         }
@@ -25,7 +24,7 @@ public class InteractiveObject : MonoBehaviour {
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.name == "2DCharacter")
+        if (other.name == "player")
         {
             TurnOffMessage();
         }

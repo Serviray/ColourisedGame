@@ -8,6 +8,7 @@ public class GameMaster : MonoBehaviour
     public Vector2 lastCheckPointPos;
     private GameObject player;
     private PlayerHealth playerHealth;
+    public int crystals; 
 
     void Awake()
     {
@@ -59,7 +60,7 @@ public class GameMaster : MonoBehaviour
          //Destroy (Player);
          if (lastCheckPointPos != null)
          {
-             //teleport and reset the player
+            //teleport and reset the player
             player.transform.position = lastCheckPointPos;
             playerHealth.takeDamage();
          }

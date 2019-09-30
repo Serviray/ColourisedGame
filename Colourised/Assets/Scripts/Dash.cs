@@ -32,7 +32,7 @@ public class Dash : MonoBehaviour
         {
             if(dashCdTimer <= 0) 
             {
-            dashing = true;
+            
             dashCdTimer = dashCdTime;
             StartDash();
             }
@@ -52,6 +52,7 @@ public class Dash : MonoBehaviour
         else
             movement = prevHVelocity + dashSpeed;
         ppc.SetVelocity(new Vector2(movement, 0.0f));
+        dashing = true;
         Invoke("StopDash", dashDuration);
     }
 
