@@ -1,24 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour {
 
         private GameMaster gm;
         public int health;
         public int numHearts;
+        public int crystals; 
         public int damage = 1;
-        public Image[] hearts;
-        public Sprite fullHearts;
-        public Sprite emptyHearts;
+        public HealthUI healthUI;
+    
+    void Start (){
+        gm = GameObject.Find("GM").GetComponent<GameMaster>();
+        //Playerstats = GM.Stats
+        health = GameMaster.instance.health;
+        numHearts = GameMaster.instance.numHearts;
+        crystals = GameMaster.instance.crystals;
+        UpdateHealthUI();
+    }
     
     void Update(){
-
+        
         if(health > numHearts){
             health = numHearts;
+            UpdateHealthUI();
         }
 
+        //dev debugging
         if(Input.GetKeyDown(KeyCode.C)){
             takeDamage();
             Debug.Log("Coded -1 Dmg");
@@ -29,21 +39,19 @@ public class PlayerHealth : MonoBehaviour {
             Debug.Log("Coded +1 Heal");
         }
 
-        for (int i = 0; i < hearts.Length; i++) {
+        if(Input.GetKeyDown(KeyCode.B)){
+            addCrystal();
+            Debug.Log("Coded +1 Crystal");
+        }
 
-            if(i < health){
-                hearts[i].sprite = fullHearts;
-            } 
-            else {
-                hearts[i].sprite = emptyHearts;
-            }
+        
+    }
 
-            if(i < numHearts){
-                hearts[i].enabled = true;
-            }
-            else {
-                hearts[i].enabled = false;
-            }
+    public void UpdateHealthUI()
+    {
+        if (healthUI != null)
+        {
+            healthUI.SetHealth(health);
         }
     }
 
@@ -60,14 +68,27 @@ public class PlayerHealth : MonoBehaviour {
             Debug.Log ("PLayer Killed");
             GameMaster.Instance().killPlayer(gameObject);
         }
+        UpdateHealthUI();
     }
-
-
     public void playerHeal(){
         Debug.Log("Return One heart");
-        numHearts = health+1;
+        health += 1;
         if (numHearts <= 0){
             numHearts = health;
         }
+        UpdateHealthUI();
+    }
+
+    public void addCrystal(){
+        Debug.Log("1 NEW CRYSTAL");
+        crystals += 1;
+        
+    }
+
+    public void SavePlayer()
+    {
+        GameMaster.instance.health = health;
+        GameMaster.instance.numHearts = numHearts;
+        GameMaster.instance.crystals = crystals;
     }
 }

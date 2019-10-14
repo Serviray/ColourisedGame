@@ -67,7 +67,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 511568329
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 590550ac74f42af4fb6ac988ebd8bbf2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 8615766197358410512}
   - component: {fileID: 8615766197358410513}
   - component: {fileID: 8615766197358410510}
-  - component: {fileID: 8615766197358410508}
+  - component: {fileID: 2730059760098733873}
   m_Layer: 9
   m_Name: Enemy AI Script
   m_TagString: Untagged
@@ -241,6 +241,8 @@ MonoBehaviour:
   stopChasing: {fileID: 8615766197358410510}
   state: 1
   chargeTime: 1
+  ActiveRnge: 13
+  startPosition: {fileID: 8615766197376543222}
 --- !u!58 &8615766197358410513
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -273,7 +275,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.55
---- !u!114 &8615766197358410508
+--- !u!114 &2730059760098733873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -282,16 +284,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8615766197358410509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22e6c29e32504465faa943c537d8029b, type: 3}
+  m_Script: {fileID: 11500000, guid: 65c4b79b06b3f5e43b53b107f004ff1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 1
   targets:
   - {fileID: 8615766197376543222}
   - {fileID: 8615766196753825571}
   - {fileID: 8615766197902032276}
   - {fileID: 8615766198085727908}
-  delay: 2
 --- !u!1 &8615766197376543223
 GameObject:
   m_ObjectHideFlags: 0

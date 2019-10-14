@@ -26,11 +26,4 @@ public class PlayerStun : MonoBehaviour
             timebetweenAttack -= Time.deltaTime;
         }
     }
-
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(stunPos.position, stunRange);
-    }
-
 }
