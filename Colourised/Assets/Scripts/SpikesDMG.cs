@@ -7,9 +7,11 @@ public class SpikesDMG : MonoBehaviour
     private PlayerHealth player;
     public float chargeTime;
     private float chargeTimer;
+    private PlayerPlatformerController ppc;
     // Start is called before the first frame update
     void Start()
     {
+        ppc = GetComponent<PlayerPlatformerController>();
         GetPlayer();
     }
 
@@ -23,30 +25,10 @@ public class SpikesDMG : MonoBehaviour
     {
         if (col.tag == "Player")
         {
-           CollisionWithPlayer(col.gameObject);
+           GameMaster.Instance().GetPlayerHealth().takeDamage();
+           Debug.Log("Enviro DMG");
+           ppc.knockback();
            
         }
     }
-    public void OnTriggerStay2D(Collider2D col)
-    {
-        if (col.tag == "Player")
-        {
-            CollisionWithPlayer(col.gameObject);
-        }
-    }
-
-    public void CollisionWithPlayer(GameObject col)
-    {
-        GameMaster.Instance().GetPlayerHealth().takeDamage();
-        EnviroDelay();
-        Debug.Log("Enviro DMG");
-    }
-
-    private void EnviroDelay()
-    {
-        
-        
-        chargeTimer = chargeTime;
-    }
-
 }
