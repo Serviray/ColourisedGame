@@ -10,10 +10,11 @@ public class PlayerPlatformerController : PhysicsObject
     public Animator animator;
     public Vector2 currentVelocity;
     private bool facingRight;
+    public float kbstrength = 50.0f;
 
     // Use this for initialization
     void Awake () 
-    {
+    {   
         facingRight = true;
         spriteRenderer = GetComponent<SpriteRenderer> ();    
         animator = GetComponent<Animator> ();
@@ -56,6 +57,12 @@ public class PlayerPlatformerController : PhysicsObject
         rb2d.velocity = newVelocity;
     }
 
+    public void knockback(){
+        SetVelocity(new Vector2(-10,0.0f));
+        Debug.Log("KB");
+        
+    }
+
     private void Flip()
     {
         facingRight = !facingRight;
@@ -65,4 +72,6 @@ public class PlayerPlatformerController : PhysicsObject
 
         transform.localScale = theScale;
     }
+
+    
 }

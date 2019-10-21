@@ -9,6 +9,7 @@ public class PlayerStun : MonoBehaviour
     public Transform stunPos;
     public float stunRange;
     public LayerMask stunable;  
+    
     void Update()
     {
         if(timebetweenAttack <= 0){

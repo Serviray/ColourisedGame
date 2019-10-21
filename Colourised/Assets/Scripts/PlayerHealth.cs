@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour {
         public int crystals; 
         public int damage = 1;
         public HealthUI healthUI;
+        
     
     void Start (){
         gm = GameObject.Find("GM").GetComponent<GameMaster>();
@@ -44,7 +45,6 @@ public class PlayerHealth : MonoBehaviour {
             Debug.Log("Coded +1 Crystal");
         }
 
-        
     }
 
     public void UpdateHealthUI()
