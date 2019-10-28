@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e03070a570375e04592537e28e44ff74
+guid: 610a1548b3de9a34e9e65f57aa8d36fc
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -4462,27 +4462,27 @@ ScriptedImporter:
       bones: 05000000
     dimension: {x: 0, y: 0}
   boneGOs:
-  - go: {fileID: 4159716267828216521, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: 4159716267828216521, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 0
-  - go: {fileID: 6353506000564441527, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: 6353506000564441527, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 1
-  - go: {fileID: -1208628490514998803, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: -1208628490514998803, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 2
-  - go: {fileID: 2345804871481142347, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: 2345804871481142347, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 3
-  - go: {fileID: -7124432407284458202, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: -7124432407284458202, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 4
-  - go: {fileID: -6348446837867817263, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: -6348446837867817263, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 5
-  - go: {fileID: 9212596769044093498, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: 9212596769044093498, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 6
-  - go: {fileID: 4921844875917557603, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: 4921844875917557603, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 7
-  - go: {fileID: 2263561687830477595, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: 2263561687830477595, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 8
-  - go: {fileID: 5805134369248994972, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: 5805134369248994972, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 9
-  - go: {fileID: 8397366216653663933, guid: e03070a570375e04592537e28e44ff74, type: 3}
+  - go: {fileID: 8397366216653663933, guid: 610a1548b3de9a34e9e65f57aa8d36fc, type: 3}
     index: 10
   generateGOHierarchy: 0
   textureAssetName: NPC2

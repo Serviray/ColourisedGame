@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 84ec1d250c4aa9f4fab866c5e73183d0
+guid: 0face153fb40cd044a9e62df31cec3c0
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -3590,21 +3590,21 @@ ScriptedImporter:
       bones: 000000000500000001000000040000000700000006000000
     dimension: {x: 0, y: 0}
   boneGOs:
-  - go: {fileID: -6463691275431579471, guid: 84ec1d250c4aa9f4fab866c5e73183d0, type: 3}
+  - go: {fileID: -6463691275431579471, guid: 0face153fb40cd044a9e62df31cec3c0, type: 3}
     index: 0
-  - go: {fileID: 7368830612502601591, guid: 84ec1d250c4aa9f4fab866c5e73183d0, type: 3}
+  - go: {fileID: 7368830612502601591, guid: 0face153fb40cd044a9e62df31cec3c0, type: 3}
     index: 1
-  - go: {fileID: -6703408255298370033, guid: 84ec1d250c4aa9f4fab866c5e73183d0, type: 3}
+  - go: {fileID: -6703408255298370033, guid: 0face153fb40cd044a9e62df31cec3c0, type: 3}
     index: 2
-  - go: {fileID: 2776650139502902929, guid: 84ec1d250c4aa9f4fab866c5e73183d0, type: 3}
+  - go: {fileID: 2776650139502902929, guid: 0face153fb40cd044a9e62df31cec3c0, type: 3}
     index: 3
-  - go: {fileID: 976891125858611223, guid: 84ec1d250c4aa9f4fab866c5e73183d0, type: 3}
+  - go: {fileID: 976891125858611223, guid: 0face153fb40cd044a9e62df31cec3c0, type: 3}
     index: 4
-  - go: {fileID: -5538420115105690314, guid: 84ec1d250c4aa9f4fab866c5e73183d0, type: 3}
+  - go: {fileID: -5538420115105690314, guid: 0face153fb40cd044a9e62df31cec3c0, type: 3}
     index: 5
-  - go: {fileID: -5542588048993529227, guid: 84ec1d250c4aa9f4fab866c5e73183d0, type: 3}
+  - go: {fileID: -5542588048993529227, guid: 0face153fb40cd044a9e62df31cec3c0, type: 3}
     index: 6
-  - go: {fileID: 7340976603221946307, guid: 84ec1d250c4aa9f4fab866c5e73183d0, type: 3}
+  - go: {fileID: 7340976603221946307, guid: 0face153fb40cd044a9e62df31cec3c0, type: 3}
     index: 7
   generateGOHierarchy: 0
   textureAssetName: Moth Boss

@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MothArea/Scenes/Colourised - Moth Backup.unity
-    guid: 89fcee2b31e686f46a8cc7c749be348c
+    path: Assets/Scenes/Finalised Scenes/MainMenu.unity
+    guid: 41ce50f250a2c6d47934979ea9d338ea
   - enabled: 1
-    path: Assets/Scenes/EnemyTest/Gus_TestRoom_1.unity
-    guid: 5d2042e4f1f26db42b95dc3a7df27241
+    path: Assets/Scenes/Finalised Scenes/TutorialArea.unity
+    guid: 88f1dcdc48d9cac48a1affe836622442
   m_configObjects: {}

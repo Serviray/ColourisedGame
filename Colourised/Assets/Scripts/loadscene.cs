@@ -7,6 +7,7 @@ public class loadscene : MonoBehaviour
 {
     private PlayerHealth playerHealth;
     private GameObject player;
+    public Animator transitionAnim;
     public int index = 1;
 
     void Awake() {
@@ -17,7 +18,15 @@ public class loadscene : MonoBehaviour
     { 
         if (other.tag == "Player")
         {
-            GameMaster.Instance().ChangeScene(index);
+            StartCoroutine(nextscene());
         }
+    }
+
+    IEnumerator nextscene(){
+
+        transitionAnim.SetTrigger("End");
+        yield return new WaitForSeconds(1.5f);
+        GameMaster.Instance().ChangeScene(index);
+
     }
 }

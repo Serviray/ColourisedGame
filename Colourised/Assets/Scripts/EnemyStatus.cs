@@ -26,6 +26,7 @@ public class EnemyStatus : MonoBehaviour
     public Transform startPosition;
     //Try and change this to the start position of the prefab (when it was placed)
     private PlayerHealth player;
+    public Animator EnemyAnima;
 
             // Start is called before the first frame update
     void Start()
@@ -69,6 +70,7 @@ public class EnemyStatus : MonoBehaviour
             chargeTimer -= Time.deltaTime;
             if (chargeTimer <= 0.0f)
             {
+                EnemyAnima.SetTrigger("bee_attack");
                 Debug.Log("Attack NOW");
                 chargeTimer = 0.0f;
                 state = EnemyState.ATTACKING;
@@ -78,6 +80,7 @@ public class EnemyStatus : MonoBehaviour
 
         if (state == EnemyState.MOVING)
         {
+            Debug.Log("Ai moving");
             pathing.canMove = true;
         }
 
@@ -150,6 +153,6 @@ public class EnemyStatus : MonoBehaviour
     private void FinishAttack()
     {
         state = EnemyState.MOVING;
-        
+        EnemyAnima.SetTrigger("bee_bob");
     }
 }
