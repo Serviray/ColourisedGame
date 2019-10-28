@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 53847e6e306823b419176894cf69ce4e
+guid: 5ce80d5784d48ee42a1222e81aca6105
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -6143,23 +6143,23 @@ ScriptedImporter:
       bones: 0700000000000000080000000100000002000000
     dimension: {x: 0, y: 0}
   boneGOs:
-  - go: {fileID: -1628146568198149462, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: -1628146568198149462, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 0
-  - go: {fileID: 2734731105065017509, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: 2734731105065017509, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 1
-  - go: {fileID: 343755198348135259, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: 343755198348135259, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 2
-  - go: {fileID: 6394607390359996195, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: 6394607390359996195, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 3
-  - go: {fileID: 8120777463154464385, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: 8120777463154464385, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 4
-  - go: {fileID: 1825485440278098157, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: 1825485440278098157, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 5
-  - go: {fileID: 3442012672944592484, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: 3442012672944592484, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 6
-  - go: {fileID: 8313886600631106715, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: 8313886600631106715, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 7
-  - go: {fileID: 8418778771431555818, guid: 53847e6e306823b419176894cf69ce4e, type: 3}
+  - go: {fileID: 8418778771431555818, guid: 5ce80d5784d48ee42a1222e81aca6105, type: 3}
     index: 8
   generateGOHierarchy: 0
   textureAssetName: NPC1
