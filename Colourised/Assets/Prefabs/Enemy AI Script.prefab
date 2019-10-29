@@ -69,7 +69,7 @@ SpriteRenderer:
   m_SortingLayerID: 511568329
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 590550ac74f42af4fb6ac988ebd8bbf2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 354416351ada6a94a989925913eb14d7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -243,6 +243,7 @@ MonoBehaviour:
   chargeTime: 1
   ActiveRnge: 13
   startPosition: {fileID: 8615766197376543222}
+  EnemyAnima: {fileID: 0}
 --- !u!58 &8615766197358410513
 CircleCollider2D:
   m_ObjectHideFlags: 0

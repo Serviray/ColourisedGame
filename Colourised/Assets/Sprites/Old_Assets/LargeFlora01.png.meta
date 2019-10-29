@@ -1,22 +1,7 @@
 fileFormatVersion: 2
-guid: 108a011858ada744fb7c1c37e691e1b8
+guid: c818004d7e633264a90dc29feb0dc0ea
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: LargeFlora01_0
-  - first:
-      213: 21300002
-    second: LargeFlora01_1
-  - first:
-      213: 21300004
-    second: LargeFlora01_2
-  - first:
-      213: 21300006
-    second: LargeFlora01_3
-  - first:
-      213: 21300008
-    second: LargeFlora01_4
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -46,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -55,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -84,129 +69,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: LargeFlora01_0
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 1163
-        width: 749
-        height: 783
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f2a43b6961464741a6b7fac8731971c
-      internalID: 21300000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LargeFlora01_1
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 1414
-        width: 910
-        height: 634
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33f9e6408770f474ca55fd579f9b6a79
-      internalID: 21300002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LargeFlora01_2
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 392
-        width: 681
-        height: 728
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e35e2839b87fa1c47b8c02bc961e2931
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LargeFlora01_3
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 756
-        width: 820
-        height: 604
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5ffd2fd029c204499c2da679197df81
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LargeFlora01_4
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 0
-        width: 683
-        height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 286b3bca7f05b444da13f85076ab29d2
-      internalID: 21300008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ddd101d9b6a8b1d49b814f9d99eac8c7
+    spriteID: afdf9d9d86e62fb429aff84690e78e62
     internalID: 0
     vertices: []
     indices: 
