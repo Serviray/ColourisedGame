@@ -11,7 +11,6 @@ public class PlayerHealth : MonoBehaviour {
         public int crystals; 
         public int damage = 1;
         public HealthUI healthUI;
-        public CrystalUI crystalUI;
         
     
     void Start (){
@@ -54,11 +53,6 @@ public class PlayerHealth : MonoBehaviour {
         {
             healthUI.SetHealth(health);
         }
-
-        if (crystalUI != null)
-        {
-            crystalUI.SetCrystals(crystals);
-        }
     }
 
     public void Reset()
@@ -88,7 +82,6 @@ public class PlayerHealth : MonoBehaviour {
     public void addCrystal(){
         Debug.Log("1 NEW CRYSTAL");
         crystals += 1;
-        UpdateHealthUI();
         
     }
 

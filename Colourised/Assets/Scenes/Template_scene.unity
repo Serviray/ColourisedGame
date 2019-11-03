@@ -278,7 +278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323557587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.44029236, y: -2.1879954, z: -10}
+  m_LocalPosition: {x: 0.41448498, y: -1.992526, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -447,12 +447,12 @@ SpriteRenderer:
   m_SortingLayerID: -1476135845
   m_SortingLayer: -2
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 6ce5f5cbe693b084eb0d6c19950a984e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b9db3cd8e5ce35b458fd917038702d26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 49.720673, y: 25.88}
+  m_Size: {x: 51.2, y: 14.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -921,9 +921,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lastCheckPointPos: {x: 0, y: 0}
-  crystals: 0
-  health: 6
-  numHearts: 6
 --- !u!4 &697432391
 Transform:
   m_ObjectHideFlags: 0
@@ -1146,7 +1143,7 @@ SpriteRenderer:
   m_SortingLayerID: -1748172601
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f3ebc0512617f924fa93b627e0893427, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ffbd034517e46a24ba655e05e398d783, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1299,12 +1296,12 @@ SpriteRenderer:
   m_SortingLayerID: -1476135845
   m_SortingLayer: -2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 04b9582e4b3e5834e948c5924401fbf3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c8b5eba3788285a4daaf43a4641426c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.89, y: 3.08}
+  m_Size: {x: 51.2, y: 14.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1800,9 +1797,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 6
   numHearts: 6
-  crystals: 0
   damage: 1
-  healthUI: {fileID: 0}
+  hearts:
+  - {fileID: 1603109388}
+  - {fileID: 427011707}
+  - {fileID: 2088806236}
+  - {fileID: 1189083752}
+  - {fileID: 651997175}
+  - {fileID: 597369419}
+  fullHearts: {fileID: 21300000, guid: d027bec204dcd264cad4d623194084e7, type: 3}
+  emptyHearts: {fileID: 21300000, guid: ffbd034517e46a24ba655e05e398d783, type: 3}
 --- !u!114 &2053167254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2001,7 +2005,7 @@ SpriteRenderer:
   m_SortingLayerID: -1748172601
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f3ebc0512617f924fa93b627e0893427, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d027bec204dcd264cad4d623194084e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
