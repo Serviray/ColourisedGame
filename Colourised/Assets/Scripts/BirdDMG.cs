@@ -6,16 +6,11 @@ public class BirdDMG : MonoBehaviour
 {   
     private PlayerHealth player;
     private PlayerPlatformerController ppc;
-    public float effectdelay = 2.0f;
-
-    private bool effectON;
-    
     // Start is called before the first frame update
     void Start()
     {
         GetPlayer();
         ppc = GameObject.Find("Player").GetComponent<PlayerPlatformerController>();
-        effectON = true;
     }
     void GetPlayer()
     {
@@ -24,18 +19,13 @@ public class BirdDMG : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.tag == "Player" && effectON)
+        if (col.tag == "Player")
         {
-           effectON = false;
            GameMaster.Instance().GetPlayerHealth().takeDamage();
            Debug.Log("Bird Dmg");
            ppc.knockback();
-           Invoke("reset", effectdelay);
+           
         }
-    }
-
-    void reset(){
-        effectON = true;
     }
 
     // Update is called once per frame

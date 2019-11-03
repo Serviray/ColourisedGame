@@ -1,7 +1,70 @@
 fileFormatVersion: 2
-guid: 6b9e5325305f8ea4cbba58609ffc6d7c
+guid: 46d9079ed1b33b941b565485cadf43ba
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: WolpertingHousing_0
+  - first:
+      213: 21300002
+    second: WolpertingHousing_1
+  - first:
+      213: 21300004
+    second: WolpertingHousing_2
+  - first:
+      213: 21300006
+    second: WolpertingHousing_3
+  - first:
+      213: 21300008
+    second: WolpertingHousing_4
+  - first:
+      213: 21300010
+    second: WolpertingHousing_5
+  - first:
+      213: 21300012
+    second: WolpertingHousing_6
+  - first:
+      213: 21300014
+    second: WolpertingHousing_7
+  - first:
+      213: 21300016
+    second: WolpertingHousing_8
+  - first:
+      213: 21300018
+    second: WolpertingHousing_9
+  - first:
+      213: 21300020
+    second: WolpertingHousing_10
+  - first:
+      213: 21300022
+    second: WolpertingHousing_11
+  - first:
+      213: 21300024
+    second: WolpertingHousing_12
+  - first:
+      213: 21300026
+    second: WolpertingHousing_13
+  - first:
+      213: 21300028
+    second: WolpertingHousing_14
+  - first:
+      213: 21300030
+    second: WolpertingHousing_15
+  - first:
+      213: 21300032
+    second: WolpertingHousing_16
+  - first:
+      213: 21300034
+    second: WolpertingHousing_17
+  - first:
+      213: 21300036
+    second: WolpertingHousing_18
+  - first:
+      213: 21300038
+    second: WolpertingHousing_19
+  - first:
+      213: 21300040
+    second: WolpertingHousing_20
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +103,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,13 +132,465 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: WolpertingHousing_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2774
+        width: 1210
+        height: 754
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d680256ebff092248a18467283954a84
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_1
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 3478
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f179e0c10170e3846b0340a9884ea2ee
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_2
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 3442
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be017fe02bba65d44b9206b2557a5e24
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_3
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1928
+        width: 906
+        height: 1554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caf2c5a475edb244baec75dddf91d1a
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_4
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 3452
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a8ded8372e7074c89683ab224362f8
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_5
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 3271
+        width: 46
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4f5460d5167af4bba3acd20f0265de
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_6
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1987
+        width: 319
+        height: 1481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ca3de2124782b4da6acda6445f8f85
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_7
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1939
+        width: 656
+        height: 1483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0542aaa89dac2e84ea837ae0f7dcbafb
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_8
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 3160
+        width: 76
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a509a48016b839f4b8eeac1cd5330425
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1605
+        width: 1195
+        height: 1193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a2f935974a8d3419aa249ae2ddd175
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_10
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 2697
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f2ab84583a21e46b117082230c05f8
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_11
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 2562
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a9f8d690917264488aad7f3f4b1201
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_12
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1637
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c335ee963ebfd4d8c08223b0c9e089
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_13
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 685
+        width: 967
+        height: 1214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b870d7f16ecbd4aadc07c0e46ffce3
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_14
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 1443
+        width: 628
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec4ad0341090664dbdbc8fa17105699
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_15
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 1468
+        height: 1539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de9992654493cd4d986cca660bed0b9
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_16
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 770
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb59501eda570d4f9ad6b51ca8e992e
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_17
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 52
+        width: 909
+        height: 1245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80799d6dc0703e44f9a9b5e1eabe2699
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_18
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 724
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa01680407a170240b8a02f5230b7b2e
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_19
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 716
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a1bc1f44a33454a83877cc297fd07e
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WolpertingHousing_20
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 99
+        width: 537
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac2401622c9f5e4bbecfde6fdcf8749
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 34f58297fd938b34581d2a5bf983de93
+    spriteID: 0f3bdecda6d5cfb479bae1df08b00c45
     internalID: 0
     vertices: []
     indices: 
