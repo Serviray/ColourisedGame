@@ -8,6 +8,9 @@ public class Dash : MonoBehaviour
     public float dashSpeed;
     public float dashDuration;
     public float dashCdTime;
+
+    public ParticleSystem effect;
+
     private float dashCdTimer;
     private float prevHVelocity;
     private bool dashing;
@@ -34,6 +37,7 @@ public class Dash : MonoBehaviour
             {
             
             dashCdTimer = dashCdTime;
+            effect.Play();
             StartDash();
             }
 
