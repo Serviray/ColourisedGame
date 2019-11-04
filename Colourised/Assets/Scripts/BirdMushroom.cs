@@ -10,7 +10,7 @@ public class BirdMushroom : MonoBehaviour
     private bool inM = false;
     private int birdhits;
     public float MushroomNUM;
-    public float Cd = 2.0f;
+    public float Cd = 4.0f;
     public Animator bAnima;
 
     // Start is called before the first frame update
@@ -27,38 +27,44 @@ public class BirdMushroom : MonoBehaviour
         }else if (timer <= 0.0f)
         {
             BirdAttack();
-            BirdHits();
         }
     }
 
     
     public void BirdAttack(){
         inM = false;
-        birdAnima.birdAttack = true;
-
-            
         timer = Cd;
 
-       
-        bAnima.SetBool ("birdAttack", birdAnima.birdAttack);   
-        //bAnima.SetTrigger("A1");
-        //bAnima.SetTrigger("A2");
-        //bAnima.SetTrigger("A3");
+        if(MushroomNUM == 1.0f){
+            bAnima.SetTrigger("A1");
+            Invoke("birdReset", 2.0f);
 
+        }
+        if(MushroomNUM == 2.0f){
+            bAnima.SetTrigger("A2");
+            Invoke("birdReset", 2.0f);
 
-
-        
-        Invoke("birdReset", 2.0f);
+        }
+        if(MushroomNUM == 3.0f){
+            bAnima.SetTrigger("A3");
+            Invoke("birdReset", 2.0f);
+        }
     }
     public void BirdHits()
     {
         birdhits += 1;
-            Debug.Log("BirdHit");
+        Debug.Log("BirdHit");
     }
 
     void birdReset(){
-        birdAnima.birdAttack = false;
-
+        bAnima.SetTrigger("Idle");
+        if(birdhits == 3)
+        {   
+            Debug.Log("Bird hit All Mushrooms");
+            // faint animation.
+            bAnima.SetTrigger("Idle");
+            birdAnima.birdFaint = true;
+        }
         Destroy(gameObject);
     }
     public void OnTriggerExit2D(Collider2D col)
@@ -72,16 +78,10 @@ public class BirdMushroom : MonoBehaviour
         }
 
         if (col.tag == "Bird"){
-            if(birdhits >= 3)
-        {   
-            Debug.Log("Bird hit Mushrooms");
-            // faint animation.
-            birdAnima.birdFaint = true;
-            birdReset();
-        }
+            BirdHits();
             
         }
-        bAnima.SetBool ("birdFaint", birdAnima.birdFaint);     }
+    }
 
     public void OnTriggerEnter2D(Collider2D col)
     {

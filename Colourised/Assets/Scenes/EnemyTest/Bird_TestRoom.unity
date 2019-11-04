@@ -1121,28 +1121,6 @@ MonoBehaviour:
   MushroomNUM: 1
   Cd: 2
   bAnima: {fileID: 726568786}
---- !u!1 &511480673 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7981115837837487241, guid: a0b26ae510df1e144bd27d7e4d87cef6,
-    type: 3}
-  m_PrefabInstance: {fileID: 7981115837459781572}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &511480677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511480673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e0ea7a2eb3934d4bbc8ef93449db8e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerUI: {fileID: 0}
-  crystalUI: {fileID: 1897410369}
-  pauseMenuUI: {fileID: 511480673}
-  controllMenuUI: {fileID: 2092147486}
 --- !u!1001 &656222484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3130,13 +3108,19 @@ ParticleSystem:
     type: 3}
   m_PrefabInstance: {fileID: 1163001475}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2072012584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 683059913196296259, guid: 1a245444497797e4a9b81474829040fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1179530529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2072012585 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6416771945217891562, guid: 1a245444497797e4a9b81474829040fe,
     type: 3}
   m_PrefabInstance: {fileID: 1179530529}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2072012584}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 515b16f194df3dc43b6356fac38f9f4e, type: 3}
@@ -3270,12 +3254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b398457c25e253f45b0658700f26ed64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &2092147486 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7981115838657279018, guid: a0b26ae510df1e144bd27d7e4d87cef6,
-    type: 3}
-  m_PrefabInstance: {fileID: 7981115837459781572}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3076464139615606025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3768,6 +3746,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7981115839135631757, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7981115837837487241, guid: a0b26ae510df1e144bd27d7e4d87cef6,
         type: 3}
       propertyPath: m_IsActive
@@ -3858,6 +3841,16 @@ PrefabInstance:
       propertyPath: m_Colors.m_PressedColor.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7606411617207166735, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: playerUI
+      value: 
+      objectReference: {fileID: 2072012584}
+    - target: {fileID: 7606411617207166735, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: crystalUI
+      value: 
+      objectReference: {fileID: 1897410369}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0b26ae510df1e144bd27d7e4d87cef6, type: 3}
 --- !u!1001 &8300085829911662728
@@ -3872,6 +3865,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crystal UI
       objectReference: {fileID: 0}
+    - target: {fileID: 3292260817701121835, guid: 59d880ae0b105e3498f61f71352cdd5a,
+        type: 3}
+      propertyPath: currentCrystals
+      value: 
+      objectReference: {fileID: 21300012, guid: eecc2ad204f1bbf4a89d249bd04b1e30,
+        type: 3}
+    - target: {fileID: 3292260817701121835, guid: 59d880ae0b105e3498f61f71352cdd5a,
+        type: 3}
+      propertyPath: emptyHolder
+      value: 
+      objectReference: {fileID: 21300026, guid: eecc2ad204f1bbf4a89d249bd04b1e30,
+        type: 3}
     - target: {fileID: 3292260817701121830, guid: 59d880ae0b105e3498f61f71352cdd5a,
         type: 3}
       propertyPath: m_LocalPosition.x

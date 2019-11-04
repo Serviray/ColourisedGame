@@ -56,7 +56,6 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
                 Debug.Log("Control M UI");
 
-
     }
 
     public void ExitControllMenuUI()
