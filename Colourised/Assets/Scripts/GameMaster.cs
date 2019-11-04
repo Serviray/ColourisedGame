@@ -26,6 +26,13 @@ public class GameMaster : MonoBehaviour
         //GameMaster.instance.player = gameObject;
     }
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.P)){
+        ResetLvl();
+        }
+    }
+    
     void Start()
     {
         SceneManager.activeSceneChanged += ResetForScene;
@@ -87,6 +94,14 @@ public class GameMaster : MonoBehaviour
             player.transform.position = lastCheckPointPos;
             playerHealth.takeDamage();
          }
+    }
+
+      void ResetLvl()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);    
+                Debug.Log("Level Reset");
+
     }
 
 }

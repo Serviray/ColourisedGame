@@ -268,8 +268,8 @@ MonoBehaviour:
   - {fileID: 3292260818301562530}
   - {fileID: 3292260818598626685}
   - {fileID: 3292260817254551873}
-  currentCrystals: {fileID: 21300000, guid: 4b47560261ebc934cbe13d8752c0f3db, type: 3}
-  emptyHolder: {fileID: 21300000, guid: f3ebc0512617f924fa93b627e0893427, type: 3}
+  currentCrystals: {fileID: 21300000, guid: d027bec204dcd264cad4d623194084e7, type: 3}
+  emptyHolder: {fileID: 21300000, guid: ffbd034517e46a24ba655e05e398d783, type: 3}
   numCrystals: 4
 --- !u!1 &3292260818301562528
 GameObject:
