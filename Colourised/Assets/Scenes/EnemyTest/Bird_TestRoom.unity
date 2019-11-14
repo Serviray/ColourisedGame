@@ -1210,6 +1210,61 @@ PrefabInstance:
       objectReference: {fileID: 6818346290252906403}
     - target: {fileID: 6788818928993079535, guid: 84367595e0daf43489d65115e5baeb99,
         type: 3}
+      propertyPath: hearts.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: hearts.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: hearts.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: hearts.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: hearts.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: hearts.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: health
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: healthUI
+      value: 
+      objectReference: {fileID: 2072012585}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: numHearts
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000103358183616231, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
+      propertyPath: crystalUI
+      value: 
+      objectReference: {fileID: 6818346290252906403}
+    - target: {fileID: 6788818928993079535, guid: 84367595e0daf43489d65115e5baeb99,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.99765944
       objectReference: {fileID: 0}
@@ -3790,6 +3845,91 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7981115839469805768, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.444982
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115839469805768, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115839044077801, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115839044077801, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115839044077801, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.444982
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115839044077801, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115838102755286, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115838102755286, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.444982
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115838102755286, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7981115838657279018, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8300182586682404661, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630847928855328501, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630847928855328501, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630847928855328501, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.444982
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630847928855328501, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606411617207166735, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: playerUI
+      value: 
+      objectReference: {fileID: 2072012584}
+    - target: {fileID: 7606411617207166735, guid: a0b26ae510df1e144bd27d7e4d87cef6,
+        type: 3}
+      propertyPath: crystalUI
+      value: 
+      objectReference: {fileID: 1897410369}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0b26ae510df1e144bd27d7e4d87cef6, type: 3}
 --- !u!1001 &8300085829911662728
