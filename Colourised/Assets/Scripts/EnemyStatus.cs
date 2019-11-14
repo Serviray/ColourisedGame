@@ -80,7 +80,6 @@ public class EnemyStatus : MonoBehaviour
 
         if (state == EnemyState.MOVING)
         {
-            Debug.Log("Ai moving");
             pathing.canMove = true;
         }
 
@@ -137,7 +136,7 @@ public class EnemyStatus : MonoBehaviour
             
         }
         else if (state != EnemyState.START_ATTACK && state != EnemyState.STUNNED)
-        {
+        {   
             GameMaster.Instance().GetPlayerHealth().takeDamage();
             StartAttack();
             Debug.Log("restarting attack");

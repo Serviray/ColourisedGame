@@ -1,70 +1,59 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
-public class Patrol : MonoBehaviour
-{
-    // Start is called before the first frame update
+namespace Pathfinding {
+	/// <summary>
+	/// Simple patrol behavior.
+	/// This will set the destination on the agent so that it moves through the sequence of objects in the <see cref="targets"/> array.
+	/// Upon reaching a target it will wait for <see cref="delay"/> seconds.
+	///
+	/// See: <see cref="Pathfinding.AIDestinationSetter"/>
+	/// See: <see cref="Pathfinding.AIPath"/>
+	/// See: <see cref="Pathfinding.RichAI"/>
+	/// See: <see cref="Pathfinding.AILerp"/>
+	/// </summary>
+	[UniqueComponent(tag = "ai.destination")]
+	[HelpURL("http://arongranberg.com/astar/docs/class_pathfinding_1_1_patrol.php")]
+	public class Patrol : VersionedMonoBehaviour {
+		/// <summary>Target points to move to in order</summary>
+		public Transform[] targets;
 
-    public float speed;
-    public float distance;
-    private bool movingRight = true;
+		/// <summary>Time in seconds to wait at each target</summary>
+		public float delay = 0;
 
-    public Transform groundDetection;
+		/// <summary>Current target index</summary>
+		int index;
 
-    private void Update()
-    {
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+		IAstarAI agent;
+		float switchTime = float.PositiveInfinity;
 
-        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, distance);
-        if (groundInfo.collider == false)
-        {
-            if (movingRight == true)
-            {
-                transform.eulerAngles = new Vector3(0, -180, 0);
-                movingRight = false;
-            }
-            else
-            {
-                transform.eulerAngles = new Vector3(0, 0, 0);
-                movingRight = true;
-            }
-        }
-    }
-              
-    [SerializeField]
-    Canvas messageCanvas;
+		protected override void Awake () {
+			base.Awake();
+			agent = GetComponent<IAstarAI>();
+		}
 
-    void Start()
-    {
-        messageCanvas.enabled = false;
-    }
+		/// <summary>Update is called once per frame</summary>
+		void Update () {
+			if (targets.Length == 0) return;
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.name == "2DCharacter")
-        {
-            TurnOnMessage();
-        }
-    }
+			bool search = false;
 
-    private void TurnOnMessage()
-    {
-        messageCanvas.enabled = true;
-    }
+			// Note: using reachedEndOfPath and pathPending instead of reachedDestination here because
+			// if the destination cannot be reached by the agent, we don't want it to get stuck, we just want it to get as close as possible and then move on.
+			if (agent.reachedEndOfPath && !agent.pathPending && float.IsPositiveInfinity(switchTime)) {
+				switchTime = Time.time + delay;
+			}
 
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.name == "2DCharacter")
-        {
-            TurnOffMessage();
-        }
-    }
+			if (Time.time >= switchTime) {
+				index = index + 1;
+				search = true;
+				switchTime = float.PositiveInfinity;
+			}
 
-    private void TurnOffMessage()
-    {
-        messageCanvas.enabled = false;
-    }
+			index = index % targets.Length;
+			agent.destination = targets[index].position;
+
+			if (search) agent.SearchPath();
+		}
+	}
 }
-          
-    

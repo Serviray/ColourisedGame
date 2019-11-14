@@ -7,9 +7,10 @@ public class Wind : MonoBehaviour
     public bool WindON;
     public float WindOff = 3.0f;
     public float WindDuration = 6.0f;
+    public float WindStn = 1;
     float Windtimer;
     private PlayerPlatformerController ppc;
-    private WindMask windM; 
+    public Animator MothAnima;
 
     // Start is called before the first frame update
     void Start()
@@ -17,40 +18,26 @@ public class Wind : MonoBehaviour
         ppc = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerPlatformerController>();
         Windtimer = WindDuration;
         WindON = true;
-        getWind();
+
     }
-    public void OnTriggerEnter2D(Collider2D col)
+    public void OnTriggerStay2D(Collider2D col)
     {
-        getWind();
-        if (col.tag == "Player" && WindON == true)
+        if (col.tag == "Player" && WindON == true )
         {
-            if (windM.Isinwind == true){
-
-
-
-
-                
-                wind();
-
-            }
-        
-
+           wind();
+           
         }
     }
 
-    void getWind(){
-        windM = GameObject.FindGameObjectWithTag("WDM").GetComponent<WindMask>();
-
-    }
-
     void wind(){
-        ppc.SetVelocity(new Vector2(-10,0.0f));
-        Debug.Log("WIND");        
+        ppc.SetVelocity(new Vector2(-10 * WindStn ,0.0f));
+        Debug.Log("WIND");  
     }
 
     void windReset(){
         Windtimer = WindDuration;
         WindON = true;
+        MothAnima.SetTrigger("moth_attack");
         Debug.Log("WindON");
     }
 
@@ -61,10 +48,13 @@ public class Wind : MonoBehaviour
         if(Windtimer <= 0.0f)
         {
             WindON = false;
-            Debug.Log("WindON");
+            Debug.Log("WindOFF");
+            MothAnima.SetTrigger("moth_idle");
             Invoke("windReset", WindOff);
             //Wind OFF dur'
         }
+
+        //Anim Moth set trigger flapping whilst ture 
         
     }
 }

@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &3736885195574689859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2652230634537767213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ef0ea3ea3dd6b54b96b5dfd4292d6e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aiPath: {fileID: 4046460785254453792}
 --- !u!95 &8281058610821661496
 Animator:
   serializedVersion: 3
@@ -32,6 +19,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3736885195574689859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2652230634537767213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef0ea3ea3dd6b54b96b5dfd4292d6e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiPath: {fileID: 4046460785254453792}
 --- !u!1 &4046460785254453794
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
   chargeTime: 1
   ActiveRnge: 13
   startPosition: {fileID: 0}
-  EnemyAnima: {fileID: 0}
+  EnemyAnima: {fileID: 8281058610821661496}
 --- !u!58 &4046460785254453823
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -205,6 +205,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4046460785254453795}
     m_Modifications:
+    - target: {fileID: 6450822923322539319, guid: c546b3ef774421f4ea17d58b3a61aac2,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy_Bee
+      objectReference: {fileID: 0}
     - target: {fileID: -6284386867513694458, guid: c546b3ef774421f4ea17d58b3a61aac2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -263,22 +268,17 @@ PrefabInstance:
     - target: {fileID: -6284386867513694458, guid: c546b3ef774421f4ea17d58b3a61aac2,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.07630278
+      value: 0.076
       objectReference: {fileID: 0}
     - target: {fileID: -6284386867513694458, guid: c546b3ef774421f4ea17d58b3a61aac2,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.07630278
+      value: 0.076
       objectReference: {fileID: 0}
     - target: {fileID: -6284386867513694458, guid: c546b3ef774421f4ea17d58b3a61aac2,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.07630278
-      objectReference: {fileID: 0}
-    - target: {fileID: 6450822923322539319, guid: c546b3ef774421f4ea17d58b3a61aac2,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy_Bee
+      value: 0.076
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -2651924955184062627, guid: c546b3ef774421f4ea17d58b3a61aac2,

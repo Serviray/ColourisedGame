@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour {
         public int crystals; 
         public int damage = 1;
         public HealthUI healthUI;
-        
+        public CrystalUI crystalUI;
     
     void Start (){
         gm = GameObject.Find("GM").GetComponent<GameMaster>();
@@ -52,6 +52,9 @@ public class PlayerHealth : MonoBehaviour {
         if (healthUI != null)
         {
             healthUI.SetHealth(health);
+
+            
+            crystalUI.SetCrystals(crystals);
         }
     }
 
@@ -66,7 +69,8 @@ public class PlayerHealth : MonoBehaviour {
         if (health <= 0)
         {
             Debug.Log ("PLayer Killed");
-            GameMaster.Instance().killPlayer(gameObject);
+            GameMaster.Instance().ChangeScene(0);
+
         }
         UpdateHealthUI();
     }
@@ -82,7 +86,7 @@ public class PlayerHealth : MonoBehaviour {
     public void addCrystal(){
         Debug.Log("1 NEW CRYSTAL");
         crystals += 1;
-        
+        UpdateHealthUI();
     }
 
     public void SavePlayer()
