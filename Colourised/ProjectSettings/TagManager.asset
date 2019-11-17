@@ -8,7 +8,7 @@ TagManager:
   - Fire
   - PlayerUI
   - Bird
-  - WDM
+  - light
   layers:
   - Default
   - TransparentFX

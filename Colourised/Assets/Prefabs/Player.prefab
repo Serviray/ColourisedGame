@@ -5707,7 +5707,7 @@ MonoBehaviour:
   minGroundNormalY: 0.65
   gravityModifier: 1
   maxSpeed: 7
-  jumpTakeOffSpeed: 10
+  jumpTakeOffSpeed: 12
   spriteRenderer: {fileID: 1275498404185608219}
   animator: {fileID: 8080237549502394237}
   currentVelocity: {x: 0, y: 0}
