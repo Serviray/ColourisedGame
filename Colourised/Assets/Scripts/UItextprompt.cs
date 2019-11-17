@@ -5,7 +5,7 @@ using UnityEngine;
 public class UItextprompt : MonoBehaviour
 {
     public Collider2D textTrigger;
-    public GameObject gameObject;
+    public new GameObject gameObject;
 
 
     void Start() 

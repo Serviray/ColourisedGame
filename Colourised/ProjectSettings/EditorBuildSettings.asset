@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Finalised Scenes/TutorialArea.unity
     guid: 88f1dcdc48d9cac48a1affe836622442
   - enabled: 1
-    path: Assets/Scenes/VillageHub/VillageHub.unity
+    path: Assets/Scenes/Finalised Scenes/VillageHub.unity
     guid: c65f8892077faae45ac6aedf460fdfda
   - enabled: 1
-    path: Assets/Scenes/BeeField/BeeField_Genna1.unity
+    path: Assets/Scenes/Finalised Scenes/BeeField_Genna1.unity
     guid: a8358198538b1404f9224fd128fd0ed7
   - enabled: 1
-    path: Assets/Scenes/BirdArea/Bird Boss.unity
+    path: Assets/Scenes/Finalised Scenes/Bird Boss.unity
     guid: d9f6cec04b6326949aee16012b1d3d9f
   - enabled: 1
     path: Assets/Scenes/EnemyTest/Moth_TestRoom.unity

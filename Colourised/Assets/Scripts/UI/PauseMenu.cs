@@ -6,13 +6,22 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false; 
-
     public GameObject playerUI;
     public GameObject crystalUI;
 
     public GameObject pauseMenuUI;
     public GameObject controllMenuUI;
+    public GameObject EndGameMenuUI;
+
+    private CrystalUI Cryupdate;
     
+    void Start(){
+
+        Cryupdate = GameObject.FindGameObjectWithTag("PlayerUI").GetComponent<CrystalUI>();
+       
+
+    }
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape)){
@@ -28,11 +37,18 @@ public class PauseMenu : MonoBehaviour
             }
         }
 
+        if(Cryupdate.crystalAmount >= 4){
+            EndGameMenuUI.SetActive(true);
+
+            // make end game screen active
+        } 
+
       
     }
 
     public void Resume()
     {
+        EndGameMenuUI.SetActive(false);
         crystalUI.SetActive(true);
         playerUI.SetActive(true);
         pauseMenuUI.SetActive(false);
@@ -42,6 +58,7 @@ public class PauseMenu : MonoBehaviour
 
     void Pause()
     {
+        EndGameMenuUI.SetActive(false);
         crystalUI.SetActive(false);
         playerUI.SetActive(false);
         pauseMenuUI.SetActive(true);
@@ -52,6 +69,7 @@ public class PauseMenu : MonoBehaviour
 
     public void ControllMenuUI()
     {
+        
         controllMenuUI.SetActive(true);
         pauseMenuUI.SetActive(false);
                 Debug.Log("Control M UI");

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &497221047138792518
+--- !u!1 &6432126615266043340
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4967410171195359958}
-  - component: {fileID: 1054397719793905905}
+  - component: {fileID: 6432126615266043330}
+  - component: {fileID: 6432126615266043331}
+  - component: {fileID: 6432126615266043329}
   m_Layer: 0
-  m_Name: Collider
+  m_Name: Mushroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4967410171195359958
+--- !u!4 &6432126615266043330
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497221047138792518}
+  m_GameObject: {fileID: 6432126615266043340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 553036823699554518}
+  m_LocalPosition: {x: 20.62, y: 2.33, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 0.5}
+  m_Children:
+  - {fileID: 4956725299330906324}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &1054397719793905905
-PolygonCollider2D:
+--- !u!61 &6432126615266043331
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497221047138792518}
+  m_GameObject: {fileID: 6432126615266043340}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -54,16 +56,26 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.9703061, y: 1.4848208}
-      - {x: 0.8339418, y: -0.3130176}
-      - {x: -2.867093, y: -0.33334363}
-      - {x: -2.6948726, y: -1.3439381}
-      - {x: 0.70203054, y: -1.4498698}
-      - {x: 1.9333988, y: -1.0011158}
-      - {x: 2.7635198, y: 0.8578709}
---- !u!1 &717480857038168801
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &6432126615266043329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432126615266043340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e70ae3944433e74bb32da2138b1b085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  birdhits: 0
+  MushroomNUM: 1
+  Cd: 3
+  bAnima: {fileID: 0}
+--- !u!1 &8043414694019991631
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -71,37 +83,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 553036823699554518}
-  - component: {fileID: 76034102260136566}
+  - component: {fileID: 4956725299330906324}
+  - component: {fileID: 4983440725702804395}
   m_Layer: 0
-  m_Name: HoneycombPlatform03
+  m_Name: Mushroom Art
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &553036823699554518
+--- !u!4 &4956725299330906324
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717480857038168801}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -98.49, y: -1.69, z: -0.11328125}
-  m_LocalScale: {x: 1.0502676, y: 1.0502676, z: 1.0502676}
-  m_Children:
-  - {fileID: 4967410171195359958}
-  m_Father: {fileID: 0}
+  m_GameObject: {fileID: 8043414694019991631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.028, z: 0}
+  m_LocalScale: {x: -0.04, y: 0.035, z: 0}
+  m_Children: []
+  m_Father: {fileID: 6432126615266043330}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!212 &76034102260136566
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4983440725702804395
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717480857038168801}
+  m_GameObject: {fileID: 8043414694019991631}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -123,7 +134,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
+  m_StitchLightmapSeams: 1
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -132,12 +143,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2813abcd70c8466468807efe488e533e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c967ff4d410523046b1d93a5144809de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 14.36, y: 1.96}
+  m_Size: {x: 76.799995, y: 2.6625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

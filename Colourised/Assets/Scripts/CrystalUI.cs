@@ -8,7 +8,7 @@ public class CrystalUI : MonoBehaviour
     public Sprite currentCrystals;
     public Sprite emptyHolder;
     public int numCrystals;
-    int crystalAmount;
+    public int crystalAmount;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,9 @@ public class CrystalUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(crystalAmount >= 4){
+            // make end game screen active
+        } 
     }
 
     public void SetCrystals(int c)
