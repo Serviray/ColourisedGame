@@ -346,7 +346,7 @@ MonoBehaviour:
   - {fileID: 683059913579685416}
   - {fileID: 683059912853045108}
   - {fileID: 683059913367945900}
-  fullHearts: {fileID: 21300046, guid: d9dd0d4df33b68846afb5ec06b6b0a09, type: 3}
+  fullHearts: {fileID: 21300046, guid: eecc2ad204f1bbf4a89d249bd04b1e30, type: 3}
   emptyHearts: {fileID: 21300044, guid: eecc2ad204f1bbf4a89d249bd04b1e30, type: 3}
   numHearts: 6
 --- !u!1 &683059913367945890

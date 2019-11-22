@@ -8,7 +8,7 @@ public class BirdMushroom : MonoBehaviour
     private BirdAnima birdAnima;
     private float timer; 
     private bool inM = false;
-    private int birdhits;
+    public int birdhits;
     public float MushroomNUM;
     public float Cd = 4.0f;
     public Animator bAnima;
@@ -18,7 +18,7 @@ public class BirdMushroom : MonoBehaviour
     {
         birdAnima = GameObject.FindGameObjectWithTag("Bird").GetComponent<BirdAnima>();
         timer = Cd; 
-    
+
     }
     void Update()
     {
@@ -30,7 +30,6 @@ public class BirdMushroom : MonoBehaviour
         }
     }
 
-    
     public void BirdAttack(){
         inM = false;
         timer = Cd;
@@ -52,44 +51,36 @@ public class BirdMushroom : MonoBehaviour
     }
     public void BirdHits()
     {
-        birdhits += 1;
-        Debug.Log("BirdHit");
+        birdAnima.hits += 1;
     }
 
     void birdReset(){
         bAnima.SetTrigger("Idle");
-        if(birdhits == 3)
-        {   
-            Debug.Log("Bird hit All Mushrooms");
-            // faint animation.
-            bAnima.SetTrigger("Idle");
-            birdAnima.birdFaint = true;
-        }
-        Destroy(gameObject);
+        Invoke("BirdHits", 1.0f);
+        Destroy(gameObject, 1.0f);
     }
     public void OnTriggerExit2D(Collider2D col)
     {
         if (col.tag == "Player")
         {
-            
             inM = false;
             timer = Cd;
             Debug.Log("Exit PLAYER");
         }
 
-        if (col.tag == "Bird"){
-            BirdHits();
-            
-        }
+        
     }
 
     public void OnTriggerEnter2D(Collider2D col)
     {
+
         if (col.tag == "Player")
         {
         Debug.Log("Enter PLAYER");
 
             inM = true;
         }
+        
+        
     }
 }

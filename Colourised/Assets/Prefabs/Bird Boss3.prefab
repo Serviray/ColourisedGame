@@ -155,6 +155,7 @@ GameObject:
   - component: {fileID: 9003927092402045880}
   - component: {fileID: 2340537086411511853}
   - component: {fileID: 5697131941254745138}
+  - component: {fileID: 8147938372811940146}
   m_Layer: 0
   m_Name: Damagebox
   m_TagString: Untagged
@@ -204,6 +205,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0937a396bd672e640ac2ae3b026ab43e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &8147938372811940146
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908852805863648546}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!1 &1207770460559578009
 GameObject:
   m_ObjectHideFlags: 0
