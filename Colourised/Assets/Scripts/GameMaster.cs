@@ -58,8 +58,11 @@ public class GameMaster : MonoBehaviour
     private void RealResetForScene()
     {
         Debug.Log("Reset For Scene");
+
         player = GameObject.FindWithTag("Player");
+
         lastCheckPointPos = player.transform.position;
+        
         playerHealth = player.GetComponent<PlayerHealth>();
         Debug.Log("Player health is now: " + playerHealth);
     }

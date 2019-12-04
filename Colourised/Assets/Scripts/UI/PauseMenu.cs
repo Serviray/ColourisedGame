@@ -9,16 +9,20 @@ public class PauseMenu : MonoBehaviour
     public GameObject playerUI;
     public GameObject crystalUI;
 
+    [Space]
+
     public GameObject pauseMenuUI;
     public GameObject controllMenuUI;
     public GameObject EndGameMenuUI;
+
+    public GameObject TransitionEffect;
 
     private CrystalUI Cryupdate;
     
     void Start(){
 
-        Cryupdate = GameObject.FindGameObjectWithTag("PlayerUI").GetComponent<CrystalUI>();
-       
+       Cryupdate = GameObject.FindGameObjectWithTag("PlayerUI").GetComponent<CrystalUI>();
+       GameIsPaused = true;
 
     }
 
@@ -38,6 +42,7 @@ public class PauseMenu : MonoBehaviour
         }
 
         if(Cryupdate.crystalAmount >= 4){
+
             EndGameMenuUI.SetActive(true);
 
             // make end game screen active
@@ -48,17 +53,19 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        TransitionEffect.SetActive(true);
         EndGameMenuUI.SetActive(false);
         crystalUI.SetActive(true);
-        playerUI.SetActive(true);
+        playerUI.SetActive(true);  
         pauseMenuUI.SetActive(false);
+
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
     void Pause()
     {
-        EndGameMenuUI.SetActive(false);
+        TransitionEffect.SetActive(false);
         crystalUI.SetActive(false);
         playerUI.SetActive(false);
         pauseMenuUI.SetActive(true);

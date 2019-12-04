@@ -11,6 +11,7 @@ public class loadscene : MonoBehaviour
     public int index = 1;
 
     void Awake() {
+
         playerHealth = GetComponent<PlayerHealth>();
     }
 

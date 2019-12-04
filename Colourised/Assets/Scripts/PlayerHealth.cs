@@ -52,8 +52,6 @@ public class PlayerHealth : MonoBehaviour {
         if (healthUI != null)
         {
             healthUI.SetHealth(health);
-
-            
             crystalUI.SetCrystals(crystals);
         }
     }
@@ -69,6 +67,8 @@ public class PlayerHealth : MonoBehaviour {
         if (health <= 0)
         {
             Debug.Log ("PLayer Killed");
+            health = 6;
+            crystals = 0;
             GameMaster.Instance().ChangeScene(0);
 
         }

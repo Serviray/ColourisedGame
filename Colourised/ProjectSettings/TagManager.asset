@@ -9,6 +9,7 @@ TagManager:
   - PlayerUI
   - Bird
   - light
+  - LoadTrans
   layers:
   - Default
   - TransparentFX
